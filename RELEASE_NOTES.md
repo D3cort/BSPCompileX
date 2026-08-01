@@ -50,7 +50,7 @@ On the large map used during development, a cold geometry build fell from 109.16
 
 Titan Geometry is an explicit option for maps with a large amount of `func_detail`. Eligible detail geometry is moved into lit static groups with materials, shadows and collision. It does not remove Source's limits. BSP constraints, vertex limits and validity checks still apply, and the UI says so.
 
-Two failures found while testing this path are worth mentioning. A generated group without a visual material used to stop the converter with `generated model group has no visual material`. A separate physical-lighting process failure could look like a build that had simply stopped making progress. Missing materials now take a logged fallback path, while a failed child process always closes the stage with an error and tears down the remaining process tree.
+Two failures found while testing this path are worth mentioning. A generated group without a visual material used to stop the converter with `generated model group has no visual material`. A separate physical-lighting process failure could look like a build that had simply stopped making progress. Missing materials now take a logged fallback path, while a failed child process always closes the stage with an error and tears down the remaining process tree. StudioMDL aggregate collision-volume differences are now warnings when the PHY exists and every convex part was preserved, which avoids rejecting valid groups containing overlapping detail solids.
 
 ### FullHDR and model lighting
 
@@ -62,7 +62,7 @@ FullHDR can still be expensive. The reference scene contained 197,422 triangles 
 
 ### Progress, resource use and logs
 
-The bottom status row reports the current stage and percentage together with CPU, GPU and application memory use. Peak values are written to the log at the end of the run. The same log records stage backends, fallbacks, exit codes and familiar Source warnings such as leaks, missing materials and hard limits.
+The bottom status row reports the current stage and percentage together with CPU, GPU and application memory use. Peak values are written to the log at the end of the run. The same log records stage backends, fallbacks, exit codes and familiar Source warnings such as leaks, missing materials and hard limits. An early `CompileX static prop records` setup line no longer jumps FullHDR progress to 93%; that percentage is reserved for the real static-prop lighting phase.
 
 Compilation and decompilation no longer write into the same panel. Each tab has its own output, its own error list, and separate Copy, Save and Clear controls. Failure dialogs contain the short version; the complete, selectable output stays in the tab for anyone who needs to diagnose it.
 
@@ -128,7 +128,7 @@ The release is a native x64 C++20 application linked with the static MSVC runtim
 
 The main QA pass ran on Windows 11 with a Core i5-12400, 32 GB of RAM and a GeForce RTX 4060 Ti 8 GB, using the current x64 Garry's Mod tools.
 
-There are 17 registered CTest cases covering the asset converter, built-in BLEND preview import, multi-file asset-drop routing, content scanner, ZIP packer, lighting encoding and physics, decompiler and updater path security, process start/stop behaviour, GLB viewport loading, oversized-path selection, legacy Source tool paths, translation and license catalogs, independent log routing, and GPU VRAD argument handling. All 17 passed in Release before the package was prepared. The packaged single-file EXE then ran its embedded self-tests independently.
+There are 18 registered CTest cases covering the asset converter, built-in BLEND preview import, multi-file asset-drop routing, compiler progress parsing, content scanner, ZIP packer, lighting encoding and physics, decompiler and updater path security, process start/stop behaviour, GLB viewport loading, oversized-path selection, legacy Source tool paths, translation and license catalogs, independent log routing, and GPU VRAD argument handling. All 18 passed in Release before the package was prepared. The packaged single-file EXE then ran its embedded self-tests independently.
 
 The model matrix included GLB, animated and static FBX, BLEND, DAE, STL, PLY, X and 3DS. Several scenes went through the full StudioMDL route, with checks for the MDL/VVD/VTX/PHY set, LOD counts, finite coordinates and normals, bounds and degenerate triangles.
 
