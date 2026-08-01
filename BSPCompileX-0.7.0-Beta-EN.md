@@ -128,7 +128,7 @@ The release is a native x64 C++20 application linked with the static MSVC runtim
 
 The main QA pass ran on Windows 11 with a Core i5-12400, 32 GB of RAM and a GeForce RTX 4060 Ti 8 GB, using the current x64 Garry's Mod tools.
 
-There are 15 registered CTest cases covering the asset converter, content scanner, ZIP packer, lighting encoding and physics, decompiler and updater path security, process start/stop behaviour, GLB viewport loading, oversized-path selection, legacy Source tool paths, translation and license catalogs, independent log routing, and GPU VRAD argument handling. All 15 passed in Release before the package was prepared. The packaged single-file EXE then ran its embedded self-tests independently.
+There are 17 registered CTest cases covering the asset converter, built-in BLEND preview import, multi-file asset-drop routing, content scanner, ZIP packer, lighting encoding and physics, decompiler and updater path security, process start/stop behaviour, GLB viewport loading, oversized-path selection, legacy Source tool paths, translation and license catalogs, independent log routing, and GPU VRAD argument handling. All 17 passed in Release before the package was prepared. The packaged single-file EXE then ran its embedded self-tests independently.
 
 The model matrix included GLB, animated and static FBX, BLEND, DAE, STL, PLY, X and 3DS. Several scenes went through the full StudioMDL route, with checks for the MDL/VVD/VTX/PHY set, LOD counts, finite coordinates and normals, bounds and degenerate triangles.
 
