@@ -112,7 +112,7 @@ Animation controls appear only after an animated input is detected. They cover f
 
 Long videos are bounded by memory, frame-count, resolution and VTF-size limits. A malformed file reports an error without wiping the previous successful preview.
 
-Both asset tabs now have a queue. Multiple files can be processed in order, selected jobs can be removed, and completed entries can be cleared. Files with the same stem in different folders receive distinct stable suffixes instead of silently overwriting each other.
+Both asset tabs now have a queue. Multiple files can be processed in order, selected jobs can be removed, and completed entries can be cleared. When several models are dropped together, the first supported file opens in the viewport immediately and the rest wait in the queue. Files with the same stem in different folders receive distinct stable suffixes instead of silently overwriting each other.
 
 ## Languages and packaging
 
