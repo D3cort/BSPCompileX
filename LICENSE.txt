@@ -1,0 +1,711 @@
+===== en =====
+BSPCompileX PROPRIETARY FREEWARE BINARY LICENSE
+License Revision 1 — Effective 1 August 2026
+
+Copyright © 2026 D3cort. All rights reserved.
+Primary and active developer: D3cort
+Official developer profile: https://github.com/D3cort
+
+IMPORTANT: Read this agreement before installing, running, copying, redistributing, or integrating BSPCompileX. By selecting “I agree,” installing, running, copying, redistributing, or integrating the Software, you accept these terms. If you do not agree, do not use the Software.
+
+1. DEFINITIONS
+“Software” means BSPCompileX and its accompanying files. An “Official Binary” is an unmodified binary or release package built and published by D3cort, or distributed through a channel expressly authorized by D3cort. “Recovered Materials” means source code, code fragments, algorithms, internal assets, symbols, intermediate representations, or other materials obtained from a leak, unauthorized backup, decompilation, disassembly, reverse engineering, extraction, or similar process.
+
+2. FREE LICENSE GRANT
+Subject to this agreement, D3cort grants you a worldwide, non-exclusive, royalty-free license to install and run Official Binaries without time, feature, personal-use, or commercial-use fees. You may call, bundle, or integrate unmodified Official Binaries into your own personal, open-source, freeware, or commercial projects and programs. You may redistribute an unmodified Official Binary free of charge. No royalty, license fee, registration, credit, attribution, or notice to D3cort is required for permitted use.
+
+Files and content that you lawfully create with the Software remain yours. D3cort claims no ownership, royalty, or attribution right in your maps, models, textures, archives, or other output merely because the Software created or processed them.
+
+3. OFFICIAL BINARIES ONLY
+This license authorizes use and redistribution only of Official Binaries. It does not grant a license to source code, leaked builds, unofficial builds, modified executables, extracted components, or reconstructed versions. You may not present an unofficial or modified build as an official BSPCompileX release or as a build approved by D3cort.
+
+4. REVERSE ENGINEERING AND MODIFICATION PROHIBITED
+Except to the limited extent that applicable mandatory law expressly does not allow this restriction, you may not, directly or indirectly: reverse engineer, decompile, disassemble, decode, decrypt, unpack, dump, trace, probe, debug for the purpose of discovering internals, translate binary form, reconstruct source code, extract algorithms or components, bypass technical protections, modify, patch, adapt, create derivative works from, separate the Software into parts, or help another person do any of those things.
+
+5. LEAKED OR RECOVERED MATERIALS PROHIBITED
+You may not obtain, possess for development use, copy, publish, distribute, sell, license, study for reuse, or incorporate any Recovered Materials into any project, product, service, library, tool, source tree, model, or program. You may not use knowledge taken from Recovered Materials to reproduce BSPCompileX functionality or to create a substantially similar implementation. If you receive such materials, you receive no rights in them under this agreement.
+
+6. THE SOFTWARE MUST REMAIN FREE
+You may not sell, rent, sublicense for a fee, place behind a separate paid-access gate, or charge a separate fee for BSPCompileX itself. A commercial project may include or invoke an Official Binary, and you may charge for that larger project or for your own services and content, provided that BSPCompileX is not represented as your product and no separate amount is charged for access to the Software. You may recover reasonable physical media or bandwidth costs only if the Software itself remains available without a license fee.
+
+7. OWNERSHIP AND THIRD-PARTY COMPONENTS
+BSPCompileX is licensed, not sold. D3cort retains all rights not expressly granted, including all copyright and proprietary rights in BSPCompileX code, design, branding, and original assets. Third-party components included with the Software remain subject to their own licenses and notices. This agreement does not restrict rights that a third-party license independently grants for those third-party components.
+
+8. FUTURE VERSIONS AND LICENSE CHANGES
+D3cort may modify this license at any time for a new Software version or release. The license supplied with a version governs that version. A new or changed license takes effect for you when you accept it or use the version supplied with it; it does not silently grant rights in source code or Recovered Materials. The Software may require renewed acceptance when the license revision changes.
+
+9. TERMINATION
+This license terminates automatically if you materially breach it. Upon termination, you must stop using and redistributing the Software and delete unauthorized modified copies and all Recovered Materials in your possession or control. Provisions concerning ownership, restrictions, disclaimers, liability, and interpretation survive termination.
+
+10. NO WARRANTY
+THE SOFTWARE IS PROVIDED “AS IS” AND “AS AVAILABLE,” WITHOUT WARRANTIES OF ANY KIND, EXPRESS, IMPLIED, OR STATUTORY, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, NON-INFRINGEMENT, OR UNINTERRUPTED OR ERROR-FREE OPERATION. YOU ARE RESPONSIBLE FOR BACKUPS, TESTING, AND VERIFYING OUTPUT BEFORE USING IT IN PRODUCTION.
+
+11. LIMITATION OF LIABILITY
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, D3CORT WILL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES; LOSS OF DATA, PROFITS, REVENUE, GOODWILL, OR BUSINESS; OR DAMAGE CAUSED BY USE OF OR INABILITY TO USE THE SOFTWARE. WHERE LIABILITY CANNOT BE EXCLUDED, D3CORT’S TOTAL LIABILITY WILL NOT EXCEED THE AMOUNT YOU PAID DIRECTLY FOR THE SOFTWARE, WHICH IS ZERO, EXCEPT WHERE MANDATORY LAW REQUIRES OTHERWISE.
+
+12. MANDATORY LAW, SEVERABILITY, AND CONTROLLING LANGUAGE
+Nothing in this agreement excludes a right or exception that applicable mandatory law does not permit the parties to waive. Any permitted reverse engineering or decompilation must be confined to the minimum scope and purpose allowed by that law; no such exception authorizes infringement, distribution of recovered code, or use of recovered materials to create a competing or substantially similar product. If any provision is unenforceable, it will be limited only as necessary, and the remainder will continue in effect.
+
+Translations are provided for convenience. If a translation differs from the English text, the English version controls to the extent permitted by law.
+
+===== ru =====
+ПРОПРИЕТАРНАЯ БЕСПЛАТНАЯ ЛИЦЕНЗИЯ НА БИНАРНЫЕ ФАЙЛЫ BSPCompileX
+Редакция лицензии 1 — действует с 1 августа 2026 года
+
+Авторское право © 2026 D3cort. Все права защищены.
+Главный и действующий разработчик: D3cort
+Официальный профиль разработчика: https://github.com/D3cort
+
+ВАЖНО: прочитайте это соглашение до установки, запуска, копирования, распространения или интеграции BSPCompileX. Устанавливая флажок «Я согласен», устанавливая, запуская, копируя, распространяя или интегрируя Программу, вы принимаете эти условия. Если вы не согласны, не используйте Программу.
+
+1. ОПРЕДЕЛЕНИЯ
+«Программа» означает BSPCompileX и поставляемые вместе с ней файлы. «Официальный бинарный файл» означает неизменённый бинарный файл или пакет выпуска, собранный и опубликованный D3cort либо распространённый через канал, прямо разрешённый D3cort. «Восстановленные материалы» означают исходный код, фрагменты кода, алгоритмы, внутренние ресурсы, символы, промежуточные представления и иные материалы, полученные из утечки, несанкционированной резервной копии, декомпиляции, дизассемблирования, обратной разработки, извлечения или аналогичного процесса.
+
+2. БЕСПЛАТНОЕ ЛИЦЕНЗИОННОЕ РАЗРЕШЕНИЕ
+При соблюдении этого соглашения D3cort предоставляет вам всемирную неисключительную безвозмездную лицензию на установку и запуск Официальных бинарных файлов без ограничений по времени и без платы за функции, личное или коммерческое использование. Вы можете вызывать, включать в комплект или интегрировать неизменённые Официальные бинарные файлы в собственные личные, открытые, бесплатные или коммерческие проекты и программы. Неизменённый Официальный бинарный файл можно распространять бесплатно. Для разрешённого использования не требуются роялти, лицензионные платежи, регистрация, указание авторства или уведомление D3cort.
+
+Законно созданные вами с помощью Программы файлы и материалы остаются вашими. D3cort не претендует на право собственности, роялти или указание авторства в отношении ваших карт, моделей, текстур, архивов и другого результата только потому, что он был создан или обработан Программой.
+
+3. ТОЛЬКО ОФИЦИАЛЬНЫЕ БИНАРНЫЕ ФАЙЛЫ
+Эта лицензия разрешает использование и распространение только Официальных бинарных файлов. Она не предоставляет прав на исходный код, слитые или неофициальные сборки, изменённые исполняемые файлы, извлечённые компоненты либо восстановленные версии. Запрещено выдавать неофициальную или изменённую сборку за официальный выпуск BSPCompileX или за сборку, одобренную D3cort.
+
+4. ЗАПРЕТ ОБРАТНОЙ РАЗРАБОТКИ И ИЗМЕНЕНИЯ
+Кроме узких случаев, когда обязательное применимое право прямо не позволяет установить такой запрет, запрещено прямо или косвенно: выполнять обратную разработку, декомпиляцию, дизассемблирование, декодирование, расшифровку, распаковку, дамп, трассировку, исследование, отладку с целью раскрытия внутреннего устройства, перевод бинарной формы, восстановление исходного кода, извлечение алгоритмов или компонентов, обход технических средств защиты, изменение, исправление, адаптацию, создание производных работ, разделение Программы на части, а также помогать другим совершать такие действия.
+
+5. ЗАПРЕТ СЛИТЫХ И ВОССТАНОВЛЕННЫХ МАТЕРИАЛОВ
+Запрещено получать, хранить для разработки, копировать, публиковать, распространять, продавать, лицензировать, изучать для повторного использования или включать Восстановленные материалы в любой проект, продукт, сервис, библиотеку, инструмент, дерево исходного кода, модель или программу. Запрещено использовать сведения из таких материалов для воспроизведения функций BSPCompileX или создания существенно похожей реализации. Получение таких материалов не предоставляет вам никаких прав на них.
+
+6. ПРОГРАММА ДОЛЖНА ОСТАВАТЬСЯ БЕСПЛАТНОЙ
+Запрещено продавать BSPCompileX, сдавать её в аренду, выдавать платные сублицензии, помещать за отдельный платный доступ или взимать отдельную плату за саму Программу. Коммерческий проект может включать или вызывать Официальный бинарный файл, а вы можете брать плату за такой более крупный проект, собственные услуги или материалы, если BSPCompileX не выдаётся за ваш продукт и за доступ к Программе не взимается отдельная сумма. Допускается лишь компенсация разумной стоимости физического носителя или трафика при сохранении самой Программы бесплатной.
+
+7. ПРАВА СОБСТВЕННОСТИ И СТОРОННИЕ КОМПОНЕНТЫ
+BSPCompileX лицензируется, а не продаётся. D3cort сохраняет все прямо не предоставленные права, включая авторские и исключительные права на код, дизайн, обозначения и оригинальные ресурсы BSPCompileX. Включённые сторонние компоненты регулируются собственными лицензиями и уведомлениями. Это соглашение не ограничивает права, которые отдельная сторонняя лицензия предоставляет на соответствующий сторонний компонент.
+
+8. БУДУЩИЕ ВЕРСИИ И ИЗМЕНЕНИЯ ЛИЦЕНЗИИ
+D3cort вправе в любое время изменить лицензию для новой версии или выпуска Программы. Каждая версия регулируется поставляемой с ней лицензией. Новая или изменённая лицензия начинает действовать для вас после её принятия либо использования соответствующей версии; она не предоставляет скрытых прав на исходный код или Восстановленные материалы. При изменении редакции лицензии Программа может потребовать повторного принятия.
+
+9. ПРЕКРАЩЕНИЕ ЛИЦЕНЗИИ
+Лицензия автоматически прекращается при существенном нарушении её условий. После прекращения вы обязаны прекратить использование и распространение Программы и удалить неразрешённые изменённые копии и все находящиеся под вашим контролем Восстановленные материалы. Положения о собственности, ограничениях, гарантиях, ответственности и толковании продолжают действовать.
+
+10. ОТСУТСТВИЕ ГАРАНТИЙ
+ПРОГРАММА ПРЕДОСТАВЛЯЕТСЯ «КАК ЕСТЬ» И «ПО МЕРЕ ДОСТУПНОСТИ», БЕЗ КАКИХ-ЛИБО ЯВНЫХ, ПОДРАЗУМЕВАЕМЫХ ИЛИ УСТАНОВЛЕННЫХ ЗАКОНОМ ГАРАНТИЙ, ВКЛЮЧАЯ ГАРАНТИИ ТОВАРНОЙ ПРИГОДНОСТИ, ПРИГОДНОСТИ ДЛЯ КОНКРЕТНОЙ ЦЕЛИ, ТОЧНОСТИ, НЕНАРУШЕНИЯ ПРАВ, БЕСПЕРЕБОЙНОЙ ИЛИ БЕЗОШИБОЧНОЙ РАБОТЫ. ВЫ САМОСТОЯТЕЛЬНО ОТВЕЧАЕТЕ ЗА РЕЗЕРВНЫЕ КОПИИ, ТЕСТИРОВАНИЕ И ПРОВЕРКУ РЕЗУЛЬТАТОВ ДО ИХ ПРОИЗВОДСТВЕННОГО ИСПОЛЬЗОВАНИЯ.
+
+11. ОГРАНИЧЕНИЕ ОТВЕТСТВЕННОСТИ
+В МАКСИМАЛЬНО ДОПУСТИМОЙ ЗАКОНОМ СТЕПЕНИ D3CORT НЕ ОТВЕЧАЕТ ЗА КОСВЕННЫЙ, СЛУЧАЙНЫЙ, ОСОБЫЙ, ПОСЛЕДУЮЩИЙ, ШТРАФНОЙ ИЛИ ПОКАЗАТЕЛЬНЫЙ УЩЕРБ; ПОТЕРЮ ДАННЫХ, ПРИБЫЛИ, ДОХОДА, РЕПУТАЦИИ ИЛИ БИЗНЕСА; ЛИБО УЩЕРБ ОТ ИСПОЛЬЗОВАНИЯ ИЛИ НЕВОЗМОЖНОСТИ ИСПОЛЬЗОВАНИЯ ПРОГРАММЫ. ЕСЛИ ОТВЕТСТВЕННОСТЬ НЕЛЬЗЯ ИСКЛЮЧИТЬ, ЕЁ ОБЩИЙ РАЗМЕР НЕ ПРЕВЫШАЕТ СУММУ, НЕПОСРЕДСТВЕННО УПЛАЧЕННУЮ ВАМИ ЗА ПРОГРАММУ, ТО ЕСТЬ НОЛЬ, КРОМЕ СЛУЧАЕВ, КОГДА ОБЯЗАТЕЛЬНОЕ ПРАВО ТРЕБУЕТ ИНОГО.
+
+12. ОБЯЗАТЕЛЬНОЕ ПРАВО, ДЕЛИМОСТЬ И ОСНОВНОЙ ЯЗЫК
+Ничто в соглашении не исключает право или исключение, от которого стороны не могут отказаться по обязательному применимому закону. Любая разрешённая обратная разработка или декомпиляция должна быть ограничена минимальными объёмом и целью, допускаемыми законом; такое исключение не разрешает нарушение авторских прав, распространение восстановленного кода или использование восстановленных материалов для создания конкурирующего либо существенно похожего продукта. Если положение неисполнимо, оно ограничивается лишь в необходимой мере, а остальные условия сохраняют силу.
+
+Переводы предоставляются для удобства. При расхождении перевода с английским текстом английская версия имеет преимущественную силу в пределах, допускаемых законом.
+
+===== fr =====
+LICENCE PROPRIÉTAIRE GRATUITE DES BINAIRES BSPCompileX
+Révision 1 — en vigueur le 1er août 2026
+
+Copyright © 2026 D3cort. Tous droits réservés.
+Développeur principal et actif : D3cort
+Profil officiel : https://github.com/D3cort
+
+IMPORTANT : lisez cet accord avant d’installer, d’exécuter, de copier, de redistribuer ou d’intégrer BSPCompileX. En cochant « J’accepte » ou en utilisant le Logiciel, vous acceptez ces conditions. Si vous refusez, n’utilisez pas le Logiciel.
+
+1. « Logiciel » désigne BSPCompileX et les fichiers fournis. Un « Binaire officiel » est un binaire ou paquet non modifié, compilé et publié par D3cort ou par un canal expressément autorisé. Les « Éléments récupérés » comprennent tout code source, fragment, algorithme, ressource interne, symbole ou représentation obtenu par fuite, sauvegarde non autorisée, décompilation, désassemblage, ingénierie inverse, extraction ou procédé similaire.
+
+2. Sous réserve du présent accord, D3cort vous accorde une licence mondiale, non exclusive et sans redevance pour installer et exécuter les Binaires officiels sans frais de durée, de fonction, d’usage personnel ou commercial. Vous pouvez intégrer un Binaire officiel non modifié à vos projets personnels, libres, gratuits ou commerciaux et le redistribuer gratuitement. Aucune redevance, inscription, mention ou notification à D3cort n’est exigée. Les cartes, modèles, textures, archives et autres contenus que vous créez légalement restent les vôtres ; D3cort ne revendique aucun droit sur eux du seul fait de l’utilisation du Logiciel.
+
+3. Seuls les Binaires officiels sont autorisés. Aucun droit n’est accordé sur le code source, les versions divulguées ou non officielles, les exécutables modifiés, les composants extraits ou les versions reconstruites. Une version modifiée ou non officielle ne peut être présentée comme approuvée par D3cort.
+
+4. Sauf dans la mesure limitée où une loi impérative interdit cette restriction, il est interdit d’effectuer ou d’aider à effectuer toute ingénierie inverse, décompilation, désassemblage, décodage, déchiffrement, dépaquetage, vidage, traçage, analyse interne, reconstruction du code source, extraction d’algorithmes ou de composants, contournement de protection, modification, correctif, adaptation, œuvre dérivée ou séparation du Logiciel en parties.
+
+5. Il est interdit d’obtenir, conserver pour le développement, copier, publier, distribuer, vendre, concéder, étudier en vue d’une réutilisation ou incorporer des Éléments récupérés dans un projet, produit, service, bibliothèque, outil ou programme. Ils ne peuvent servir à reproduire BSPCompileX ou à créer une mise en œuvre substantiellement similaire.
+
+6. BSPCompileX doit rester gratuit. Vous ne pouvez pas vendre, louer, concéder contre paiement, placer derrière un accès payant distinct ni facturer séparément le Logiciel. Un projet commercial peut inclure ou appeler un Binaire officiel et être payant, à condition de ne pas présenter BSPCompileX comme votre produit et de ne pas facturer séparément son accès.
+
+7. BSPCompileX est concédé sous licence, non vendu. D3cort conserve tous les droits non expressément accordés. Les composants tiers restent soumis à leurs propres licences, qui ne sont pas restreintes par le présent accord.
+
+8. D3cort peut modifier cette licence pour toute nouvelle version. La licence fournie avec une version régit cette version et prend effet lors de son acceptation ou de son utilisation. Une nouvelle révision peut exiger une nouvelle acceptation.
+
+9. La licence prend fin automatiquement en cas de violation substantielle. Vous devez alors cesser d’utiliser et de redistribuer le Logiciel et supprimer les copies modifiées non autorisées ainsi que les Éléments récupérés.
+
+10. LE LOGICIEL EST FOURNI « EN L’ÉTAT » ET « SELON DISPONIBILITÉ », SANS GARANTIE D’AUCUNE SORTE. VOUS ÊTES RESPONSABLE DES SAUVEGARDES, DES TESTS ET DE LA VÉRIFICATION DES RÉSULTATS.
+
+11. DANS LA MESURE MAXIMALE PERMISE PAR LA LOI, D3CORT N’EST RESPONSABLE D’AUCUN DOMMAGE INDIRECT, SPÉCIAL, CONSÉCUTIF OU PUNITIF, NI D’AUCUNE PERTE DE DONNÉES, DE BÉNÉFICES OU D’ACTIVITÉ. SI UNE RESPONSABILITÉ NE PEUT ÊTRE EXCLUE, ELLE EST LIMITÉE AU MONTANT DIRECTEMENT PAYÉ POUR LE LOGICIEL, SOIT ZÉRO, SAUF EXIGENCE IMPÉRATIVE CONTRAIRE.
+
+12. Le présent accord ne supprime aucun droit auquel la loi impérative interdit de renoncer. Toute décompilation légalement permise doit rester strictement limitée au but et à l’étendue autorisés et ne permet ni contrefaçon, ni diffusion du code récupéré, ni création d’un produit concurrent substantiellement similaire. Si une clause est inapplicable, les autres demeurent en vigueur. Les traductions sont fournies à titre pratique ; en cas de divergence, l’anglais prévaut dans la mesure permise par la loi.
+
+===== de =====
+BSPCompileX PROPRIETÄRE KOSTENLOSE BINÄRLIZENZ
+Lizenzfassung 1 — gültig ab 1. August 2026
+
+Copyright © 2026 D3cort. Alle Rechte vorbehalten.
+Hauptverantwortlicher und aktiver Entwickler: D3cort
+Offizielles Profil: https://github.com/D3cort
+
+WICHTIG: Lesen Sie diese Vereinbarung, bevor Sie BSPCompileX installieren, ausführen, kopieren, weitergeben oder integrieren. Mit „Ich stimme zu“ oder der Nutzung der Software akzeptieren Sie diese Bedingungen. Andernfalls dürfen Sie die Software nicht verwenden.
+
+1. „Software“ bezeichnet BSPCompileX samt Begleitdateien. Eine „Offizielle Binärdatei“ ist eine unveränderte, von D3cort erstellte und veröffentlichte Binärdatei oder ein entsprechend autorisiertes Releasepaket. „Wiedergewonnene Materialien“ sind Quellcode, Fragmente, Algorithmen, interne Ressourcen, Symbole oder Darstellungen aus Leaks, unbefugten Sicherungen, Dekompilierung, Disassemblierung, Reverse Engineering, Extraktion oder ähnlichen Verfahren.
+
+2. Unter diesen Bedingungen gewährt D3cort eine weltweite, nicht ausschließliche und gebührenfreie Lizenz zum zeitlich und funktional unbeschränkten Installieren und Ausführen Offizieller Binärdateien für private und kommerzielle Zwecke. Unveränderte Offizielle Binärdateien dürfen in eigene private, quelloffene, kostenlose oder kommerzielle Projekte integriert und kostenlos weitergegeben werden. Lizenzgebühren, Registrierung, Namensnennung oder Mitteilung sind nicht erforderlich. Rechtmäßig erzeugte Karten, Modelle, Texturen, Archive und sonstige Ausgaben bleiben Ihr Eigentum.
+
+3. Erlaubt sind ausschließlich Offizielle Binärdateien. Diese Lizenz gewährt keine Rechte an Quellcode, geleakten oder inoffiziellen Builds, veränderten Programmen, extrahierten Komponenten oder rekonstruierten Fassungen. Inoffizielle Fassungen dürfen nicht als von D3cort genehmigt dargestellt werden.
+
+4. Soweit zwingendes Recht dieses Verbot nicht ausdrücklich ausschließt, sind Reverse Engineering, Dekompilierung, Disassemblierung, Entschlüsselung, Entpacken, Speicherabbilder, Tracing, interne Analyse, Rekonstruktion von Quellcode, Extraktion von Algorithmen oder Komponenten, Umgehung technischer Schutzmaßnahmen, Änderung, Patchen, Anpassung, Bearbeitung, Ableitung oder Zerlegung der Software sowie die Hilfe hierzu verboten.
+
+5. Wiedergewonnene Materialien dürfen nicht beschafft, zur Entwicklung aufbewahrt, kopiert, veröffentlicht, verbreitet, verkauft, lizenziert, zur Wiederverwendung untersucht oder in Projekte, Produkte, Dienste, Bibliotheken, Werkzeuge oder Programme übernommen werden. Sie dürfen nicht zur Nachbildung von BSPCompileX oder einer wesentlich ähnlichen Implementierung dienen.
+
+6. BSPCompileX muss kostenlos bleiben. Verkauf, Vermietung, kostenpflichtige Unterlizenzierung, gesonderte Bezahlschranken oder eine gesonderte Gebühr für die Software sind verboten. Ein kostenpflichtiges Gesamtprojekt darf eine Offizielle Binärdatei enthalten oder aufrufen, sofern BSPCompileX nicht als eigenes Produkt ausgegeben und der Zugriff darauf nicht gesondert berechnet wird.
+
+7. BSPCompileX wird lizenziert, nicht verkauft. D3cort behält alle nicht ausdrücklich eingeräumten Rechte. Komponenten Dritter unterliegen weiterhin ihren eigenen Lizenzen; unabhängig gewährte Rechte werden durch diese Vereinbarung nicht beschränkt.
+
+8. D3cort darf diese Lizenz für neue Versionen jederzeit ändern. Für jede Version gilt die beigefügte Lizenz; eine neue Fassung wird mit ihrer Annahme oder Nutzung wirksam und kann eine erneute Zustimmung verlangen.
+
+9. Bei wesentlichem Verstoß endet die Lizenz automatisch. Nutzung und Weitergabe sind einzustellen; unbefugt veränderte Kopien und Wiedergewonnene Materialien sind zu löschen.
+
+10. DIE SOFTWARE WIRD „WIE BESEHEN“ UND „WIE VERFÜGBAR“ OHNE JEGLICHE GEWÄHRLEISTUNG BEREITGESTELLT. SIE SIND FÜR SICHERUNGEN, TESTS UND DIE PRÜFUNG DER AUSGABEN VERANTWORTLICH.
+
+11. SOWEIT GESETZLICH ZULÄSSIG, HAFTET D3CORT NICHT FÜR MITTELBARE, BESONDERE, FOLGE- ODER STRAFSCHÄDEN ODER FÜR DATEN-, GEWINN- ODER GESCHÄFTSVERLUSTE. NICHT AUSSCHLIESSBARE HAFTUNG IST AUF DEN DIREKT FÜR DIE SOFTWARE GEZAHLTEN BETRAG — NULL — BEGRENZT, SOWEIT ZWINGENDES RECHT NICHTS ANDERES VERLANGT.
+
+12. Unabdingbare gesetzliche Rechte bleiben unberührt. Gesetzlich zulässige Dekompilierung ist auf den zwingend erlaubten Zweck und Umfang beschränkt und erlaubt weder Rechtsverletzungen noch die Verbreitung wiedergewonnenen Codes oder die Entwicklung eines wesentlich ähnlichen Konkurrenzprodukts. Unwirksame Klauseln werden nur im erforderlichen Umfang beschränkt; der Rest bleibt wirksam. Bei Abweichungen einer Übersetzung ist, soweit zulässig, der englische Text maßgeblich.
+
+===== pl =====
+WŁASNOŚCIOWA BEZPŁATNA LICENCJA BINARNA BSPCompileX
+Wersja licencji 1 — obowiązuje od 1 sierpnia 2026 r.
+
+Copyright © 2026 D3cort. Wszelkie prawa zastrzeżone.
+Główny i aktywny programista: D3cort
+Oficjalny profil: https://github.com/D3cort
+
+WAŻNE: przed instalacją, uruchomieniem, kopiowaniem, rozpowszechnianiem lub integracją BSPCompileX przeczytaj tę umowę. Wybranie „Zgadzam się” lub używanie Oprogramowania oznacza akceptację warunków. W razie braku zgody nie używaj Oprogramowania.
+
+1. „Oprogramowanie” oznacza BSPCompileX i pliki towarzyszące. „Oficjalny plik binarny” to niezmieniony plik lub pakiet zbudowany i opublikowany przez D3cort albo przez wyraźnie upoważniony kanał. „Materiały odzyskane” obejmują kod źródłowy, fragmenty, algorytmy, zasoby wewnętrzne, symbole lub reprezentacje uzyskane z wycieku, nieautoryzowanej kopii zapasowej, dekompilacji, dezasemblacji, inżynierii wstecznej, ekstrakcji lub podobnego procesu.
+
+2. Z zastrzeżeniem tej umowy D3cort udziela ogólnoświatowej, niewyłącznej i wolnej od opłat licencji na instalowanie i uruchamianie Oficjalnych plików binarnych bez opłat czasowych, funkcjonalnych, osobistych lub komercyjnych. Niezmienione Oficjalne pliki binarne można integrować z własnymi projektami prywatnymi, otwartymi, darmowymi lub komercyjnymi i bezpłatnie rozpowszechniać. Nie wymaga się opłat, rejestracji, oznaczenia autorstwa ani powiadomienia D3cort. Legalnie utworzone mapy, modele, tekstury, archiwa i inne wyniki pozostają twoją własnością.
+
+3. Dozwolone są wyłącznie Oficjalne pliki binarne. Licencja nie obejmuje kodu źródłowego, wyciekłych lub nieoficjalnych kompilacji, zmodyfikowanych plików wykonywalnych, wyodrębnionych składników ani wersji odtworzonych. Nie wolno przedstawiać ich jako zatwierdzonych przez D3cort.
+
+4. Poza ograniczonym zakresem, w którym bezwzględnie obowiązujące prawo nie pozwala na zakaz, niedozwolone są: inżynieria wsteczna, dekompilacja, dezasemblacja, dekodowanie, odszyfrowywanie, rozpakowywanie, zrzuty, śledzenie, analiza wnętrza, odtwarzanie źródeł, wydobywanie algorytmów lub składników, obchodzenie zabezpieczeń, modyfikowanie, łatanie, adaptowanie, tworzenie utworów zależnych, dzielenie Oprogramowania oraz pomoc w takich działaniach.
+
+5. Materiałów odzyskanych nie wolno pozyskiwać, przechowywać do celów rozwoju, kopiować, publikować, rozpowszechniać, sprzedawać, licencjonować, badać w celu ponownego użycia ani włączać do projektu, produktu, usługi, biblioteki, narzędzia lub programu. Nie wolno ich używać do odtwarzania BSPCompileX ani tworzenia istotnie podobnej implementacji.
+
+6. BSPCompileX musi pozostać bezpłatny. Zabronione jest sprzedawanie, wynajmowanie, odpłatne sublicencjonowanie, umieszczanie za osobną zaporą płatniczą lub pobieranie osobnej opłaty za Oprogramowanie. Płatny większy projekt może zawierać Oficjalny plik binarny, jeżeli BSPCompileX nie jest przedstawiany jako twój produkt i dostęp do niego nie jest osobno płatny.
+
+7. BSPCompileX jest licencjonowany, a nie sprzedawany. D3cort zachowuje wszystkie prawa niewyraźnie udzielone. Składniki osób trzecich podlegają ich własnym licencjom.
+
+8. D3cort może w każdej chwili zmienić licencję dla nowej wersji. Daną wersję reguluje dołączona licencja, skuteczna po jej akceptacji lub użyciu wersji. Nowa wersja licencji może wymagać ponownej zgody.
+
+9. Istotne naruszenie automatycznie kończy licencję. Należy zaprzestać używania i rozpowszechniania oraz usunąć nieautoryzowane zmienione kopie i Materiały odzyskane.
+
+10. OPROGRAMOWANIE JEST DOSTARCZANE „TAK JAK JEST” I „W MIARĘ DOSTĘPNOŚCI”, BEZ GWARANCJI. ODPOWIADASZ ZA KOPIE ZAPASOWE, TESTY I WERYFIKACJĘ WYNIKÓW.
+
+11. W MAKSYMALNYM ZAKRESIE DOZWOLONYM PRAWEM D3CORT NIE ODPOWIADA ZA SZKODY POŚREDNIE, SZCZEGÓLNE, NASTĘPCZE LUB KARNE ANI ZA UTRATĘ DANYCH, ZYSKÓW LUB DZIAŁALNOŚCI. ODPOWIEDZIALNOŚĆ, KTÓREJ NIE MOŻNA WYŁĄCZYĆ, OGRANICZA SIĘ DO KWOTY ZAPŁACONEJ BEZPOŚREDNIO ZA OPROGRAMOWANIE — ZERO — O ILE PRAWO BEZWZGLĘDNIE NIE STANOWI INACZEJ.
+
+12. Umowa nie wyłącza praw, których nie można się zrzec. Dopuszczona prawem dekompilacja musi być ograniczona do dozwolonego celu i zakresu oraz nie uprawnia do naruszeń, rozpowszechniania odzyskanego kodu ani tworzenia istotnie podobnego produktu konkurencyjnego. Nieważność jednego postanowienia nie narusza pozostałych. W razie różnic tłumaczenia, w dozwolonym zakresie rozstrzyga wersja angielska.
+
+===== tr =====
+BSPCompileX TESCİLLİ ÜCRETSİZ İKİLİ DOSYA LİSANSI
+Lisans Sürümü 1 — 1 Ağustos 2026’dan itibaren geçerlidir
+
+Telif Hakkı © 2026 D3cort. Tüm hakları saklıdır.
+Baş ve aktif geliştirici: D3cort
+Resmî profil: https://github.com/D3cort
+
+ÖNEMLİ: BSPCompileX’i kurmadan, çalıştırmadan, kopyalamadan, dağıtmadan veya bütünleştirmeden önce bu sözleşmeyi okuyun. “Kabul ediyorum” seçeneğini işaretleyerek veya Yazılımı kullanarak koşulları kabul edersiniz. Kabul etmiyorsanız Yazılımı kullanmayın.
+
+1. “Yazılım”, BSPCompileX ve beraberindeki dosyalardır. “Resmî İkili Dosya”, D3cort tarafından oluşturulup yayımlanan veya açıkça yetkilendirilmiş bir kanaldan sunulan değiştirilmemiş dosya ya da sürüm paketidir. “Kurtarılmış Materyaller”; sızıntı, yetkisiz yedek, kod çözme, tersine derleme, tersine mühendislik, çıkarma veya benzeri yolla elde edilen kaynak kodu, parçaları, algoritmaları, iç varlıkları ve diğer materyalleri kapsar.
+
+2. Bu sözleşmeye bağlı olarak D3cort, Resmî İkili Dosyaları süre, özellik, kişisel veya ticari kullanım ücreti olmadan kurup çalıştırmanız için dünya çapında, münhasır olmayan ve telifsiz lisans verir. Değiştirilmemiş Resmî İkili Dosyaları kişisel, açık kaynaklı, ücretsiz veya ticari projelerinize ekleyebilir ve ücretsiz dağıtabilirsiniz. Telif, lisans ücreti, kayıt, atıf veya bildirim gerekmez. Yasal olarak oluşturduğunuz harita, model, doku, arşiv ve diğer çıktılar size aittir.
+
+3. Yalnızca Resmî İkili Dosyalar yetkilidir. Kaynak kodu, sızdırılmış veya gayriresmî yapılar, değiştirilmiş yürütülebilirler, çıkarılmış bileşenler ve yeniden oluşturulmuş sürümler lisanslanmaz; D3cort tarafından onaylanmış gibi sunulamaz.
+
+4. Emredici hukuk bu kısıtlamaya açıkça izin vermediği sınırlı ölçü dışında; tersine mühendislik, kaynak koda dönüştürme, parçalara ayırma, kod çözme, şifre çözme, paket açma, döküm, izleme, iç yapıyı inceleme, kaynak kodunu yeniden kurma, algoritma veya bileşen çıkarma, korumaları aşma, değiştirme, yama, uyarlama, türev çalışma oluşturma, Yazılımı parçalara ayırma ve bunlara yardım etme yasaktır.
+
+5. Kurtarılmış Materyaller geliştirme amacıyla edinilemez veya tutulamaz; kopyalanamaz, yayımlanamaz, dağıtılamaz, satılamaz, lisanslanamaz, yeniden kullanım için incelenemez veya herhangi bir proje, ürün, hizmet, kitaplık, araç ya da programa eklenemez. BSPCompileX işlevlerini veya büyük ölçüde benzer bir uygulamayı üretmek için kullanılamaz.
+
+6. BSPCompileX ücretsiz kalmalıdır. Yazılım satılamaz, kiralanamaz, ücretli alt lisanslanamaz, ayrı ücretli erişime konamaz ve Yazılım için ayrı ücret alınamaz. Daha büyük ticari bir proje Resmî İkili Dosyayı içerebilir; ancak BSPCompileX sizin ürününüz gibi gösterilemez ve erişimi için ayrı bedel alınamaz.
+
+7. BSPCompileX satılmaz, lisanslanır. Açıkça verilmeyen tüm haklar D3cort’a aittir. Üçüncü taraf bileşenleri kendi lisanslarına tabidir.
+
+8. D3cort yeni bir sürüm için bu lisansı her zaman değiştirebilir. Her sürüme beraberindeki lisans uygulanır; kabul veya kullanımla yürürlüğe girer ve yeniden onay gerektirebilir.
+
+9. Önemli ihlalde lisans kendiliğinden sona erer. Kullanım ve dağıtım durdurulmalı; yetkisiz değiştirilmiş kopyalar ve Kurtarılmış Materyaller silinmelidir.
+
+10. YAZILIM “OLDUĞU GİBİ” VE “MEVCUT OLDUĞU ÖLÇÜDE”, HİÇBİR GARANTİ OLMAKSIZIN SUNULUR. YEDEKLEME, TEST VE ÇIKTI DOĞRULAMASI SİZE AİTTİR.
+
+11. YASANIN İZİN VERDİĞİ AZAMİ ÖLÇÜDE D3CORT; DOLAYLI, ÖZEL, SONUÇSAL VEYA CEZAİ ZARARLARDAN YA DA VERİ, KÂR VE İŞ KAYBINDAN SORUMLU DEĞİLDİR. HARİÇ TUTULAMAYAN SORUMLULUK, EMREDİCİ HUKUK AKSİNİ GEREKTİRMEDİKÇE YAZILIM İÇİN DOĞRUDAN ÖDENEN TUTARLA — SIFIRLA — SINIRLIDIR.
+
+12. Bu sözleşme vazgeçilemeyen yasal hakları kaldırmaz. Yasal olarak izin verilen tersine işlem yalnızca izin verilen amaç ve kapsamla sınırlıdır; ihlale, kurtarılan kodun dağıtımına veya büyük ölçüde benzer rakip ürün oluşturmaya izin vermez. Bir hükmün geçersizliği diğerlerini etkilemez. Çeviri ile İngilizce arasında fark varsa, hukuken mümkün olduğu ölçüde İngilizce metin geçerlidir.
+
+===== pt =====
+LICENÇA PROPRIETÁRIA GRATUITA DE BINÁRIOS BSPCompileX
+Revisão 1 — em vigor desde 1 de agosto de 2026
+
+Copyright © 2026 D3cort. Todos os direitos reservados.
+Desenvolvedor principal e ativo: D3cort
+Perfil oficial: https://github.com/D3cort
+
+IMPORTANTE: leia este contrato antes de instalar, executar, copiar, redistribuir ou integrar o BSPCompileX. Ao marcar “Concordo” ou usar o Software, você aceita estes termos. Se não concordar, não use o Software.
+
+1. “Software” significa BSPCompileX e os arquivos que o acompanham. “Binário Oficial” é um binário ou pacote inalterado, compilado e publicado por D3cort ou por um canal expressamente autorizado. “Materiais Recuperados” são código-fonte, fragmentos, algoritmos, recursos internos, símbolos ou representações obtidos por vazamento, backup não autorizado, descompilação, desmontagem, engenharia reversa, extração ou processo semelhante.
+
+2. Sujeito a este contrato, D3cort concede licença mundial, não exclusiva e livre de royalties para instalar e executar Binários Oficiais sem taxas por tempo, recursos, uso pessoal ou comercial. Você pode integrar Binários Oficiais inalterados em projetos pessoais, de código aberto, gratuitos ou comerciais e redistribuí-los gratuitamente. Não são exigidos royalties, taxa, cadastro, crédito, atribuição ou aviso. Mapas, modelos, texturas, arquivos e outras saídas legalmente criadas por você continuam sendo seus.
+
+3. Somente Binários Oficiais são autorizados. Não há licença para código-fonte, versões vazadas ou não oficiais, executáveis modificados, componentes extraídos ou versões reconstruídas. Uma versão assim não pode ser apresentada como aprovada por D3cort.
+
+4. Exceto na medida limitada em que lei obrigatória não permita a restrição, são proibidos engenharia reversa, descompilação, desmontagem, decodificação, descriptografia, desempacotamento, despejo, rastreamento, análise interna, reconstrução do código-fonte, extração de algoritmos ou componentes, contorno de proteções, modificação, correção, adaptação, obra derivada, separação do Software em partes e auxílio a essas ações.
+
+5. Materiais Recuperados não podem ser obtidos, guardados para desenvolvimento, copiados, publicados, distribuídos, vendidos, licenciados, estudados para reutilização ou incorporados a qualquer projeto, produto, serviço, biblioteca, ferramenta ou programa. Não podem ser usados para reproduzir o BSPCompileX ou criar implementação substancialmente semelhante.
+
+6. O BSPCompileX deve permanecer gratuito. É proibido vender, alugar, sublicenciar mediante pagamento, colocar atrás de acesso pago separado ou cobrar separadamente pelo Software. Um projeto comercial maior pode incluir um Binário Oficial, desde que não apresente o BSPCompileX como produto próprio nem cobre separadamente por seu acesso.
+
+7. O BSPCompileX é licenciado, não vendido. D3cort conserva todos os direitos não expressamente concedidos. Componentes de terceiros permanecem sujeitos às respectivas licenças.
+
+8. D3cort pode alterar esta licença a qualquer momento para uma nova versão. A licença fornecida com cada versão rege essa versão, passando a valer com a aceitação ou o uso e podendo exigir nova aceitação.
+
+9. A licença termina automaticamente em caso de violação relevante. O uso e a redistribuição devem cessar, e cópias modificadas não autorizadas e Materiais Recuperados devem ser apagados.
+
+10. O SOFTWARE É FORNECIDO “NO ESTADO EM QUE SE ENCONTRA” E “CONFORME DISPONÍVEL”, SEM GARANTIAS. VOCÊ É RESPONSÁVEL POR BACKUPS, TESTES E VERIFICAÇÃO DAS SAÍDAS.
+
+11. ATÉ O LIMITE MÁXIMO PERMITIDO POR LEI, D3CORT NÃO RESPONDE POR DANOS INDIRETOS, ESPECIAIS, CONSEQUENCIAIS OU PUNITIVOS, NEM POR PERDA DE DADOS, LUCROS OU NEGÓCIOS. RESPONSABILIDADE QUE NÃO POSSA SER EXCLUÍDA LIMITA-SE AO VALOR PAGO DIRETAMENTE PELO SOFTWARE — ZERO — SALVO EXIGÊNCIA LEGAL OBRIGATÓRIA.
+
+12. Este contrato não elimina direitos irrenunciáveis. Qualquer descompilação legalmente permitida deve limitar-se ao objetivo e alcance autorizados e não permite infração, distribuição de código recuperado nem produto concorrente substancialmente semelhante. Se uma disposição for inexequível, as demais permanecem válidas. Em caso de divergência, o texto em inglês prevalece na medida permitida por lei.
+
+===== es =====
+LICENCIA PROPIETARIA GRATUITA DE BINARIOS BSPCompileX
+Revisión 1 — vigente desde el 1 de agosto de 2026
+
+Copyright © 2026 D3cort. Todos los derechos reservados.
+Desarrollador principal y activo: D3cort
+Perfil oficial: https://github.com/D3cort
+
+IMPORTANTE: lea este acuerdo antes de instalar, ejecutar, copiar, redistribuir o integrar BSPCompileX. Al marcar «Acepto» o usar el Software, acepta estas condiciones. Si no está de acuerdo, no use el Software.
+
+1. «Software» significa BSPCompileX y sus archivos adjuntos. Un «Binario oficial» es un binario o paquete sin modificar, compilado y publicado por D3cort o mediante un canal expresamente autorizado. «Materiales recuperados» son código fuente, fragmentos, algoritmos, recursos internos, símbolos o representaciones obtenidos por filtración, copia de seguridad no autorizada, descompilación, desensamblado, ingeniería inversa, extracción o proceso similar.
+
+2. Sujeto a este acuerdo, D3cort concede una licencia mundial, no exclusiva y libre de regalías para instalar y ejecutar Binarios oficiales sin cargos por tiempo, funciones o uso personal o comercial. Puede integrar Binarios oficiales sin modificar en proyectos personales, de código abierto, gratuitos o comerciales y redistribuirlos gratuitamente. No se requieren regalías, cuotas, registro, crédito, atribución ni aviso. Los mapas, modelos, texturas, archivos y demás resultados creados legalmente por usted siguen siendo suyos.
+
+3. Solo se autorizan Binarios oficiales. No se concede licencia sobre código fuente, compilaciones filtradas o no oficiales, ejecutables modificados, componentes extraídos ni versiones reconstruidas. No pueden presentarse como aprobados por D3cort.
+
+4. Salvo en la medida limitada en que una ley imperativa impida esta restricción, quedan prohibidos la ingeniería inversa, descompilación, desensamblado, descodificación, descifrado, desempaquetado, volcado, rastreo, análisis interno, reconstrucción del código fuente, extracción de algoritmos o componentes, elusión de protecciones, modificación, parcheo, adaptación, obra derivada, separación del Software y la ayuda para realizar esas acciones.
+
+5. Los Materiales recuperados no pueden obtenerse, conservarse para desarrollo, copiarse, publicarse, distribuirse, venderse, licenciarse, estudiarse para reutilización ni incorporarse a proyectos, productos, servicios, bibliotecas, herramientas o programas. No pueden usarse para reproducir BSPCompileX ni crear una implementación sustancialmente similar.
+
+6. BSPCompileX debe seguir siendo gratuito. No puede venderse, alquilarse, sublicenciarse por pago, colocarse tras un acceso de pago separado ni cobrarse por separado. Un proyecto comercial mayor puede incluir un Binario oficial, siempre que BSPCompileX no se presente como producto propio ni se cobre por separado su acceso.
+
+7. BSPCompileX se licencia, no se vende. D3cort conserva todos los derechos no concedidos expresamente. Los componentes de terceros siguen sujetos a sus propias licencias.
+
+8. D3cort puede cambiar esta licencia en cualquier momento para una nueva versión. La licencia incluida con cada versión rige esa versión, surte efecto al aceptarla o usarla y puede exigir nueva aceptación.
+
+9. La licencia termina automáticamente por incumplimiento sustancial. Debe cesar el uso y la redistribución y eliminar copias modificadas no autorizadas y Materiales recuperados.
+
+10. EL SOFTWARE SE PROPORCIONA «TAL CUAL» Y «SEGÚN DISPONIBILIDAD», SIN GARANTÍAS. USTED ES RESPONSABLE DE LAS COPIAS DE SEGURIDAD, LAS PRUEBAS Y LA VERIFICACIÓN DE LOS RESULTADOS.
+
+11. EN LA MÁXIMA MEDIDA PERMITIDA POR LA LEY, D3CORT NO SERÁ RESPONSABLE DE DAÑOS INDIRECTOS, ESPECIALES, CONSECUENTES O PUNITIVOS NI DE PÉRDIDA DE DATOS, BENEFICIOS O NEGOCIO. LA RESPONSABILIDAD QUE NO PUEDA EXCLUIRSE SE LIMITA A LA CANTIDAD PAGADA DIRECTAMENTE POR EL SOFTWARE — CERO — SALVO QUE LA LEY IMPERATIVA EXIJA OTRA COSA.
+
+12. Este acuerdo no elimina derechos irrenunciables. Toda descompilación permitida legalmente debe limitarse al propósito y alcance autorizados y no permite infracción, distribución de código recuperado ni creación de un producto competidor sustancialmente similar. Si una cláusula no es exigible, las restantes siguen vigentes. En caso de discrepancia, prevalece el texto inglés en la medida permitida por la ley.
+
+===== uk =====
+ПРОПРІЄТАРНА БЕЗКОШТОВНА ЛІЦЕНЗІЯ НА БІНАРНІ ФАЙЛИ BSPCompileX
+Редакція 1 — чинна з 1 серпня 2026 року
+
+Авторське право © 2026 D3cort. Усі права захищено.
+Головний і чинний розробник: D3cort
+Офіційний профіль: https://github.com/D3cort
+
+ВАЖЛИВО: прочитайте цю угоду перед встановленням, запуском, копіюванням, розповсюдженням або інтеграцією BSPCompileX. Позначаючи «Погоджуюся» або використовуючи Програму, ви приймаєте умови. Якщо не погоджуєтеся, не використовуйте Програму.
+
+1. «Програма» означає BSPCompileX і супровідні файли. «Офіційний бінарний файл» — незмінений файл або пакет, зібраний та опублікований D3cort або через прямо дозволений канал. «Відновлені матеріали» — вихідний код, фрагменти, алгоритми, внутрішні ресурси, символи чи подання, отримані з витоку, несанкціонованої резервної копії, декомпіляції, дизасемблювання, зворотної розробки, вилучення чи подібного процесу.
+
+2. За умови дотримання цієї угоди D3cort надає всесвітню, невиключну, безоплатну ліцензію на встановлення й запуск Офіційних бінарних файлів без плати за строк, функції, особисте чи комерційне використання. Незмінені Офіційні бінарні файли можна інтегрувати у власні особисті, відкриті, безкоштовні або комерційні проєкти та безкоштовно розповсюджувати. Роялті, реєстрація, зазначення авторства чи повідомлення D3cort не потрібні. Законно створені карти, моделі, текстури, архіви та інші результати залишаються вашими.
+
+3. Дозволено лише Офіційні бінарні файли. Ліцензія не поширюється на вихідний код, витеклі чи неофіційні збірки, змінені виконувані файли, вилучені компоненти або відтворені версії. Їх не можна видавати за схвалені D3cort.
+
+4. Крім обмеженого обсягу, в якому імперативне право не дозволяє таку заборону, заборонено зворотну розробку, декомпіляцію, дизасемблювання, декодування, розшифрування, розпакування, дамп, трасування, внутрішній аналіз, відновлення вихідного коду, вилучення алгоритмів чи компонентів, обхід захисту, зміну, виправлення, адаптацію, створення похідних робіт, поділ Програми на частини та допомогу в цих діях.
+
+5. Відновлені матеріали не можна отримувати, зберігати для розробки, копіювати, публікувати, розповсюджувати, продавати, ліцензувати, досліджувати для повторного використання або включати до проєктів, продуктів, сервісів, бібліотек, інструментів чи програм. Їх не можна використовувати для відтворення BSPCompileX або суттєво подібної реалізації.
+
+6. BSPCompileX має залишатися безкоштовним. Заборонено продавати, здавати в оренду, платно субліцензувати, розміщувати за окремим платним доступом або стягувати окрему плату. Комерційний більший проєкт може містити Офіційний бінарний файл, якщо BSPCompileX не видається за ваш продукт і доступ до нього не оплачується окремо.
+
+7. BSPCompileX ліцензується, а не продається. D3cort зберігає всі прямо не надані права. Сторонні компоненти регулюються власними ліцензіями.
+
+8. D3cort може будь-коли змінити ліцензію для нової версії. Кожна версія регулюється доданою ліцензією, що набирає чинності після прийняття або використання і може вимагати повторної згоди.
+
+9. Істотне порушення автоматично припиняє ліцензію. Потрібно припинити використання й розповсюдження та видалити несанкціоновані змінені копії й Відновлені матеріали.
+
+10. ПРОГРАМА НАДАЄТЬСЯ «ЯК Є» ТА «ЗА НАЯВНОСТІ», БЕЗ ГАРАНТІЙ. ВИ ВІДПОВІДАЄТЕ ЗА РЕЗЕРВНІ КОПІЇ, ТЕСТУВАННЯ ТА ПЕРЕВІРКУ РЕЗУЛЬТАТІВ.
+
+11. У МАКСИМАЛЬНО ДОЗВОЛЕНІЙ ЗАКОНОМ МІРІ D3CORT НЕ ВІДПОВІДАЄ ЗА НЕПРЯМІ, ОСОБЛИВІ, НАСЛІДКОВІ ЧИ ШТРАФНІ ЗБИТКИ АБО ВТРАТУ ДАНИХ, ПРИБУТКУ ЧИ БІЗНЕСУ. НЕВИКЛЮЧНА ВІДПОВІДАЛЬНІСТЬ ОБМЕЖУЄТЬСЯ СУМОЮ, ПРЯМО СПЛАЧЕНОЮ ЗА ПРОГРАМУ — НУЛЕМ — ЯКЩО ІМПЕРАТИВНЕ ПРАВО НЕ ВИМАГАЄ ІНШОГО.
+
+12. Угода не скасовує невідмовних прав. Законно дозволена декомпіляція обмежується дозволеними метою й обсягом і не дозволяє порушення прав, поширення відновленого коду чи створення суттєво подібного конкурентного продукту. Недійсність одного положення не впливає на інші. У разі розбіжності перекладу, наскільки дозволяє закон, переважає англійський текст.
+
+===== zh-CN =====
+BSPCompileX 专有免费二进制许可证
+许可证修订版 1 — 2026 年 8 月 1 日生效
+
+版权所有 © 2026 D3cort。保留所有权利。
+主要及现任开发者：D3cort
+官方主页：https://github.com/D3cort
+
+重要提示：安装、运行、复制、再分发或集成 BSPCompileX 前，请阅读本协议。选择“我同意”或使用本软件即表示接受这些条款。如不同意，请勿使用本软件。
+
+1.“软件”指 BSPCompileX 及其随附文件。“官方二进制文件”指由 D3cort 构建并发布，或经 D3cort 明确授权的渠道分发的未修改二进制文件或发行包。“恢复材料”指通过泄露、未经授权的备份、反编译、反汇编、逆向工程、提取或类似过程获得的源代码、代码片段、算法、内部资源、符号、中间表示或其他材料。
+
+2. 在遵守本协议的前提下，D3cort 授予您全球性、非独占、免版税的许可，可安装和运行官方二进制文件，不收取期限、功能、个人用途或商业用途费用。您可将未修改的官方二进制文件集成到个人、开源、免费或商业项目和程序中，并可免费再分发。许可用途无需支付版税或许可费，无需注册、署名或通知 D3cort。您合法创建的地图、模型、纹理、压缩包及其他输出仍归您所有。
+
+3. 仅授权使用官方二进制文件。本许可证不授予源代码、泄露或非官方版本、修改后的可执行文件、提取组件或重建版本的权利。不得将这些版本宣称为 D3cort 批准的官方版本。
+
+4. 除强制适用法律明确不允许此限制的有限范围外，禁止逆向工程、反编译、反汇编、解码、解密、解包、转储、跟踪、内部探查、源代码重建、算法或组件提取、绕过技术保护、修改、打补丁、改编、创作衍生作品、拆分软件，或协助他人实施上述行为。
+
+5. 不得为开发目的获取或持有、复制、发布、分发、出售、许可、研究以便复用，或将恢复材料并入任何项目、产品、服务、库、工具或程序。不得利用恢复材料重现 BSPCompileX 功能或创建实质相似的实现。
+
+6. BSPCompileX 必须保持免费。不得出售、出租、收费再许可、设置单独付费访问或对软件本身单独收费。更大的商业项目可包含或调用官方二进制文件，但不得将 BSPCompileX 冒充为您的产品，也不得就其访问另行收费。
+
+7. BSPCompileX 是许可使用而非出售。D3cort 保留未明确授予的一切权利。第三方组件仍受其各自许可证约束。
+
+8. D3cort 可随时为新版本修改本许可证。每个版本由随附许可证管辖，该许可证在您接受或使用该版本时生效，并可能要求重新接受。
+
+9. 如有重大违约，许可证自动终止。您必须停止使用和分发，并删除未经授权的修改副本及恢复材料。
+
+10. 软件按“现状”和“可用状态”提供，不作任何保证。您负责备份、测试并在生产使用前验证输出。
+
+11. 在法律允许的最大范围内，D3CORT 不承担任何间接、特殊、后果性或惩罚性损害，也不承担数据、利润或业务损失。无法排除的责任以您直接支付的软件费用（即零）为限，强制法律另有规定的除外。
+
+12. 本协议不排除依法不可放弃的权利。法律允许的反编译必须限于获准的目的和最小范围，不得用于侵权、传播恢复代码或创建实质相似的竞争产品。某条款不可执行不影响其余条款。翻译仅为方便；如有差异，在法律允许范围内以英文文本为准。
+
+===== ko =====
+BSPCompileX 독점 무료 바이너리 라이선스
+라이선스 개정 1 — 2026년 8월 1일 시행
+
+저작권 © 2026 D3cort. 모든 권리 보유.
+주요 현직 개발자: D3cort
+공식 프로필: https://github.com/D3cort
+
+중요: BSPCompileX를 설치, 실행, 복사, 재배포 또는 통합하기 전에 본 계약을 읽으십시오. “동의함”을 선택하거나 소프트웨어를 사용하면 본 조건에 동의하는 것입니다. 동의하지 않으면 사용하지 마십시오.
+
+1. “소프트웨어”는 BSPCompileX와 동봉 파일을 뜻합니다. “공식 바이너리”는 D3cort가 빌드·게시했거나 명시적으로 승인한 경로로 배포된 변경되지 않은 바이너리 또는 릴리스 패키지입니다. “복구 자료”는 유출, 무단 백업, 디컴파일, 디스어셈블, 리버스 엔지니어링, 추출 또는 유사한 절차로 얻은 소스 코드, 코드 조각, 알고리즘, 내부 자산, 기호나 표현입니다.
+
+2. 본 계약을 준수하는 조건으로 D3cort는 공식 바이너리를 기간, 기능, 개인 또는 상업적 사용료 없이 설치하고 실행할 수 있는 전 세계적·비독점적·로열티 없는 라이선스를 부여합니다. 변경되지 않은 공식 바이너리를 개인, 오픈 소스, 무료 또는 상업 프로젝트에 통합하고 무료로 재배포할 수 있습니다. 로열티, 등록, 표시, 저작자 표기 또는 통지는 필요하지 않습니다. 합법적으로 만든 맵, 모델, 텍스처, 아카이브 및 기타 결과물은 귀하의 것입니다.
+
+3. 공식 바이너리만 허용됩니다. 소스 코드, 유출 또는 비공식 빌드, 수정 실행 파일, 추출 구성요소나 재구성 버전에는 권리가 부여되지 않으며 D3cort가 승인한 것으로 표시할 수 없습니다.
+
+4. 강행법규가 제한을 허용하지 않는 범위를 제외하고, 리버스 엔지니어링, 디컴파일, 디스어셈블, 디코딩, 복호화, 언패킹, 덤프, 추적, 내부 분석, 소스 재구성, 알고리즘 또는 구성요소 추출, 기술적 보호 우회, 수정, 패치, 각색, 파생물 제작, 분할 및 그러한 행위에 대한 지원은 금지됩니다.
+
+5. 복구 자료를 개발 목적으로 취득·보유하거나 복사, 게시, 배포, 판매, 라이선스, 재사용 연구 또는 프로젝트·제품·서비스·라이브러리·도구·프로그램에 통합할 수 없습니다. BSPCompileX 기능이나 실질적으로 유사한 구현을 만드는 데 사용할 수 없습니다.
+
+6. BSPCompileX는 무료로 유지되어야 합니다. 소프트웨어 자체를 판매, 임대, 유료 재라이선스, 별도 유료 접근 뒤에 배치하거나 별도 요금을 청구할 수 없습니다. 더 큰 상업 프로젝트가 공식 바이너리를 포함할 수는 있으나 BSPCompileX를 자신의 제품으로 표시하거나 접근료를 별도로 받을 수 없습니다.
+
+7. BSPCompileX는 판매가 아닌 라이선스 방식으로 제공됩니다. 명시되지 않은 모든 권리는 D3cort가 보유합니다. 제3자 구성요소는 각자의 라이선스를 따릅니다.
+
+8. D3cort는 새 버전에 대해 언제든 본 라이선스를 변경할 수 있습니다. 각 버전에는 동봉된 라이선스가 적용되며, 수락 또는 사용 시 효력이 발생하고 재동의를 요구할 수 있습니다.
+
+9. 중대한 위반 시 라이선스는 자동 종료됩니다. 사용·재배포를 중단하고 무단 수정본과 복구 자료를 삭제해야 합니다.
+
+10. 소프트웨어는 어떠한 보증 없이 “있는 그대로”, “사용 가능한 상태로” 제공됩니다. 백업, 테스트 및 결과 검증은 귀하의 책임입니다.
+
+11. 법이 허용하는 최대 범위에서 D3CORT는 간접·특별·결과적·징벌적 손해 또는 데이터·이익·사업 손실에 책임지지 않습니다. 배제할 수 없는 책임은 강행법규가 달리 요구하지 않는 한 소프트웨어에 직접 지급한 금액, 즉 0으로 제한됩니다.
+
+12. 본 계약은 포기할 수 없는 법적 권리를 배제하지 않습니다. 법이 허용한 디컴파일은 승인된 목적과 최소 범위로 제한되며 침해, 복구 코드 배포 또는 실질적으로 유사한 경쟁 제품 제작을 허용하지 않습니다. 일부 조항의 집행 불능은 나머지에 영향을 주지 않습니다. 번역과 영어가 다르면 법이 허용하는 범위에서 영어가 우선합니다.
+
+===== cs =====
+VLASTNICKÁ BEZPLATNÁ BINÁRNÍ LICENCE BSPCompileX
+Revize 1 — účinná od 1. srpna 2026
+
+Copyright © 2026 D3cort. Všechna práva vyhrazena.
+Hlavní a aktivní vývojář: D3cort
+Oficiální profil: https://github.com/D3cort
+
+DŮLEŽITÉ: před instalací, spuštěním, kopírováním, šířením nebo integrací BSPCompileX si přečtěte tuto smlouvu. Volbou „Souhlasím“ nebo použitím Softwaru podmínky přijímáte. Nesouhlasíte-li, Software nepoužívejte.
+
+1. „Software“ je BSPCompileX a doprovodné soubory. „Oficiální binární soubor“ je nezměněný soubor či balíček sestavený a vydaný D3cort nebo výslovně schváleným kanálem. „Obnovené materiály“ jsou zdrojový kód, fragmenty, algoritmy, interní prostředky, symboly či reprezentace získané únikem, neoprávněnou zálohou, dekompilací, disassemblováním, zpětným inženýrstvím, extrakcí nebo podobně.
+
+2. Při dodržení smlouvy uděluje D3cort celosvětovou, nevýhradní a bezplatnou licenci k instalaci a spuštění Oficiálních binárních souborů bez časových, funkčních, osobních či komerčních poplatků. Nezměněné Oficiální binární soubory lze začlenit do osobních, otevřených, bezplatných či komerčních projektů a bezplatně šířit. Nevyžaduje se licenční poplatek, registrace, uvedení autora ani oznámení. Zákonně vytvořené mapy, modely, textury, archivy a další výstupy zůstávají vaše.
+
+3. Povoleny jsou pouze Oficiální binární soubory. Licence se nevztahuje na zdrojový kód, uniklé či neoficiální sestavení, upravené spustitelné soubory, extrahované součásti ani rekonstruované verze a nelze je vydávat za schválené D3cort.
+
+4. Kromě omezeného rozsahu, v němž kogentní právo zákaz nepřipouští, jsou zakázány zpětné inženýrství, dekompilace, disassemblování, dekódování, dešifrování, rozbalování, výpisy, trasování, vnitřní analýza, rekonstrukce zdroje, extrakce algoritmů či součástí, obcházení ochrany, změny, opravy, adaptace, odvozená díla, rozdělení Softwaru a pomoc při těchto činnostech.
+
+5. Obnovené materiály nelze získávat, uchovávat pro vývoj, kopírovat, zveřejňovat, šířit, prodávat, licencovat, zkoumat pro opětovné použití ani začlenit do projektu, produktu, služby, knihovny, nástroje či programu. Nelze jimi napodobovat BSPCompileX ani vytvořit podstatně podobnou implementaci.
+
+6. BSPCompileX musí zůstat bezplatný. Software nelze prodávat, pronajímat, placeně sublicencovat, umístit za samostatný placený přístup ani za něj samostatně účtovat. Větší komerční projekt jej může obsahovat, pokud BSPCompileX nevydáváte za vlastní produkt a přístup k němu samostatně neúčtujete.
+
+7. BSPCompileX je licencován, nikoli prodáván. D3cort si ponechává všechna výslovně neudělená práva. Součásti třetích stran se řídí vlastními licencemi.
+
+8. D3cort může licenci pro novou verzi kdykoli změnit. Každou verzi řídí přiložená licence, účinná přijetím nebo použitím, a může vyžadovat nový souhlas.
+
+9. Podstatné porušení licenci automaticky ukončuje. Musíte zastavit používání a šíření a smazat neoprávněné upravené kopie a Obnovené materiály.
+
+10. SOFTWARE JE POSKYTOVÁN „TAK, JAK JE“ A „PODLE DOSTUPNOSTI“, BEZ ZÁRUK. ODPOVÍDÁTE ZA ZÁLOHY, TESTY A OVĚŘENÍ VÝSTUPŮ.
+
+11. V MAXIMÁLNÍM ZÁKONNÉM ROZSAHU D3CORT NEODPOVÍDÁ ZA NEPŘÍMÉ, ZVLÁŠTNÍ, NÁSLEDNÉ ČI SANKČNÍ ŠKODY ANI ZA ZTRÁTU DAT, ZISKU ČI PODNIKÁNÍ. NEVYLOUČITELNÁ ODPOVĚDNOST JE OMEZENA NA ČÁSTKU PŘÍMO ZAPLACENOU ZA SOFTWARE — NULU — NESTANOVÍ-LI KOGENTNÍ PRÁVO JINAK.
+
+12. Smlouva nevylučuje práva, jichž se nelze vzdát. Zákonně povolená dekompilace musí být omezena na povolený účel a rozsah a nedovoluje porušení práv, šíření obnoveného kódu ani podstatně podobný konkurenční produkt. Nevymahatelnost ustanovení neovlivňuje ostatní. Při rozdílu překladu má v zákonném rozsahu přednost anglický text.
+
+===== sk =====
+VLASTNÍCKA BEZPLATNÁ BINÁRNA LICENCIA BSPCompileX
+Revízia 1 — účinná od 1. augusta 2026
+
+Copyright © 2026 D3cort. Všetky práva vyhradené.
+Hlavný a aktívny vývojár: D3cort
+Oficiálny profil: https://github.com/D3cort
+
+DÔLEŽITÉ: pred inštaláciou, spustením, kopírovaním, šírením alebo integráciou BSPCompileX si prečítajte túto zmluvu. Voľbou „Súhlasím“ alebo používaním Softvéru podmienky prijímate. Ak nesúhlasíte, Softvér nepoužívajte.
+
+1. „Softvér“ je BSPCompileX a sprievodné súbory. „Oficiálny binárny súbor“ je nezmenený súbor alebo balík zostavený a vydaný D3cort alebo výslovne povoleným kanálom. „Obnovené materiály“ sú zdrojový kód, fragmenty, algoritmy, interné prostriedky, symboly či reprezentácie získané únikom, neoprávnenou zálohou, dekompiláciou, disassemblovaním, reverzným inžinierstvom, extrakciou alebo podobne.
+
+2. Pri dodržaní zmluvy udeľuje D3cort celosvetovú, nevýhradnú a bezplatnú licenciu na inštaláciu a spustenie Oficiálnych binárnych súborov bez časových, funkčných, osobných či komerčných poplatkov. Nezmenené Oficiálne binárne súbory možno začleniť do osobných, otvorených, bezplatných alebo komerčných projektov a bezplatne šíriť. Nevyžaduje sa poplatok, registrácia, uvedenie autora ani oznámenie. Zákonne vytvorené mapy, modely, textúry, archívy a ďalšie výstupy zostávajú vaše.
+
+3. Povolené sú iba Oficiálne binárne súbory. Licencia sa nevzťahuje na zdrojový kód, uniknuté či neoficiálne zostavenia, upravené spustiteľné súbory, extrahované súčasti ani rekonštruované verzie a nemožno ich vydávať za schválené D3cort.
+
+4. Okrem obmedzeného rozsahu, v ktorom kogentné právo zákaz nepripúšťa, sú zakázané reverzné inžinierstvo, dekompilácia, disassemblovanie, dekódovanie, dešifrovanie, rozbaľovanie, výpisy, trasovanie, vnútorná analýza, rekonštrukcia zdroja, extrakcia algoritmov či súčastí, obchádzanie ochrany, zmeny, opravy, adaptácie, odvodené diela, rozdelenie Softvéru a pomoc pri týchto činnostiach.
+
+5. Obnovené materiály nemožno získavať, uchovávať na vývoj, kopírovať, zverejňovať, šíriť, predávať, licencovať, skúmať na opätovné použitie ani začleniť do projektu, produktu, služby, knižnice, nástroja či programu. Nemožno nimi napodobňovať BSPCompileX ani vytvoriť podstatne podobnú implementáciu.
+
+6. BSPCompileX musí zostať bezplatný. Softvér nemožno predávať, prenajímať, platene sublicencovať, umiestniť za samostatný platený prístup ani zaň samostatne účtovať. Väčší komerčný projekt ho môže obsahovať, ak BSPCompileX nevydávate za vlastný produkt a prístup k nemu samostatne neúčtujete.
+
+7. BSPCompileX sa licencuje, nepredáva. D3cort si ponecháva všetky výslovne neudelené práva. Súčasti tretích strán sa riadia vlastnými licenciami.
+
+8. D3cort môže licenciu pre novú verziu kedykoľvek zmeniť. Každú verziu riadi priložená licencia, účinná prijatím alebo použitím, a môže vyžadovať nový súhlas.
+
+9. Podstatné porušenie licenciu automaticky ukončuje. Musíte zastaviť používanie a šírenie a zmazať neoprávnené upravené kópie a Obnovené materiály.
+
+10. SOFTVÉR SA POSKYTUJE „TAK, AKO JE“ A „PODĽA DOSTUPNOSTI“, BEZ ZÁRUK. ZODPOVEDÁTE ZA ZÁLOHY, TESTY A OVERENIE VÝSTUPOV.
+
+11. V MAXIMÁLNOM ZÁKONNOM ROZSAHU D3CORT NEZODPOVEDÁ ZA NEPRIAME, OSOBITNÉ, NÁSLEDNÉ ČI SANKČNÉ ŠKODY ANI ZA STRATU DÁT, ZISKU ČI PODNIKANIA. NEVYLÚČITEĽNÁ ZODPOVEDNOSŤ JE OBMEDZENÁ NA SUMU PRIAMO ZAPLATENÚ ZA SOFTVÉR — NULU — AK KOGENTNÉ PRÁVO NEVYŽADUJE INAK.
+
+12. Zmluva nevylučuje práva, ktorých sa nemožno vzdať. Zákonne povolená dekompilácia musí byť obmedzená na povolený účel a rozsah a nedovoľuje porušenie práv, šírenie obnoveného kódu ani podstatne podobný konkurenčný produkt. Nevymáhateľnosť ustanovenia neovplyvňuje ostatné. Pri rozdiele prekladu má v zákonnom rozsahu prednosť anglický text.
+
+===== it =====
+LICENZA PROPRIETARIA GRATUITA PER I BINARI BSPCompileX
+Revisione 1 — in vigore dal 1º agosto 2026
+
+Copyright © 2026 D3cort. Tutti i diritti riservati.
+Sviluppatore principale e attivo: D3cort
+Profilo ufficiale: https://github.com/D3cort
+
+IMPORTANTE: leggere questo accordo prima di installare, eseguire, copiare, ridistribuire o integrare BSPCompileX. Selezionando «Accetto» o usando il Software si accettano le condizioni. In caso contrario non utilizzare il Software.
+
+1. «Software» indica BSPCompileX e i file allegati. Un «Binario ufficiale» è un binario o pacchetto non modificato, compilato e pubblicato da D3cort o tramite un canale espressamente autorizzato. I «Materiali recuperati» comprendono codice sorgente, frammenti, algoritmi, risorse interne, simboli o rappresentazioni ottenuti da fuga di dati, backup non autorizzato, decompilazione, disassemblaggio, ingegneria inversa, estrazione o processo analogo.
+
+2. Nel rispetto dell’accordo, D3cort concede una licenza mondiale, non esclusiva e senza royalty per installare ed eseguire Binari ufficiali senza costi temporali, funzionali, personali o commerciali. I Binari ufficiali non modificati possono essere integrati in progetti personali, open source, gratuiti o commerciali e ridistribuiti gratuitamente. Non sono richiesti royalty, registrazione, credito, attribuzione o avviso. Mappe, modelli, texture, archivi e altri risultati creati legalmente restano vostri.
+
+3. Sono autorizzati soltanto i Binari ufficiali. Non è concessa alcuna licenza su codice sorgente, build divulgate o non ufficiali, eseguibili modificati, componenti estratti o versioni ricostruite, che non possono essere presentati come approvati da D3cort.
+
+4. Salvo il limitato ambito in cui la legge imperativa non consente tale divieto, sono vietati ingegneria inversa, decompilazione, disassemblaggio, decodifica, decrittazione, spacchettamento, dump, tracciamento, analisi interna, ricostruzione del sorgente, estrazione di algoritmi o componenti, elusione delle protezioni, modifica, patch, adattamento, opere derivate, separazione del Software e assistenza a tali attività.
+
+5. I Materiali recuperati non possono essere acquisiti, conservati per lo sviluppo, copiati, pubblicati, distribuiti, venduti, concessi, studiati per il riuso o incorporati in progetti, prodotti, servizi, librerie, strumenti o programmi. Non possono servire a riprodurre BSPCompileX o un’implementazione sostanzialmente simile.
+
+6. BSPCompileX deve rimanere gratuito. Non può essere venduto, noleggiato, sublicenziato a pagamento, posto dietro un accesso a pagamento separato o addebitato separatamente. Un progetto commerciale più ampio può includere un Binario ufficiale purché BSPCompileX non sia presentato come prodotto proprio e l’accesso non sia addebitato separatamente.
+
+7. BSPCompileX è concesso in licenza, non venduto. D3cort conserva tutti i diritti non espressamente concessi. I componenti di terzi restano soggetti alle rispettive licenze.
+
+8. D3cort può modificare questa licenza in qualsiasi momento per una nuova versione. Ogni versione è regolata dalla licenza allegata, efficace con l’accettazione o l’uso, e può richiedere una nuova accettazione.
+
+9. La licenza cessa automaticamente in caso di violazione sostanziale. È necessario cessare uso e ridistribuzione e cancellare copie modificate non autorizzate e Materiali recuperati.
+
+10. IL SOFTWARE È FORNITO «COSÌ COM’È» E «SECONDO DISPONIBILITÀ», SENZA GARANZIE. SIETE RESPONSABILI DI BACKUP, TEST E VERIFICA DEI RISULTATI.
+
+11. NELLA MISURA MASSIMA CONSENTITA DALLA LEGGE, D3CORT NON RISPONDE DI DANNI INDIRETTI, SPECIALI, CONSEQUENZIALI O PUNITIVI NÉ DI PERDITA DI DATI, PROFITTI O ATTIVITÀ. LA RESPONSABILITÀ NON ESCLUDIBILE È LIMITATA ALL’IMPORTO PAGATO DIRETTAMENTE PER IL SOFTWARE — ZERO — SALVO DIVERSA NORMA IMPERATIVA.
+
+12. L’accordo non elimina diritti irrinunciabili. Ogni decompilazione legalmente consentita deve limitarsi allo scopo e all’ambito autorizzati e non consente violazioni, distribuzione di codice recuperato né un prodotto concorrente sostanzialmente simile. L’inapplicabilità di una clausola non incide sulle altre. In caso di divergenza prevale il testo inglese nei limiti consentiti dalla legge.
+
+===== nl =====
+BSPCompileX EIGENDOMSRECHTELIJKE GRATIS BINAIRE LICENTIE
+Licentieversie 1 — geldig vanaf 1 augustus 2026
+
+Copyright © 2026 D3cort. Alle rechten voorbehouden.
+Hoofdontwikkelaar en actieve ontwikkelaar: D3cort
+Officieel profiel: https://github.com/D3cort
+
+BELANGRIJK: lees deze overeenkomst voordat u BSPCompileX installeert, uitvoert, kopieert, verspreidt of integreert. Door “Ik ga akkoord” te kiezen of de Software te gebruiken, aanvaardt u de voorwaarden. Gebruik de Software niet als u niet akkoord gaat.
+
+1. “Software” betekent BSPCompileX en bijbehorende bestanden. Een “Officieel binair bestand” is een ongewijzigd bestand of pakket dat door D3cort is gebouwd en gepubliceerd of via een uitdrukkelijk toegestaan kanaal is verspreid. “Teruggewonnen materiaal” omvat broncode, fragmenten, algoritmen, interne middelen, symbolen of representaties verkregen uit een lek, onbevoegde back-up, decompilatie, disassemblage, reverse engineering, extractie of vergelijkbaar proces.
+
+2. Onder deze overeenkomst verleent D3cort een wereldwijde, niet-exclusieve en royaltyvrije licentie om Officiële binaire bestanden te installeren en uit te voeren zonder kosten voor tijd, functies, persoonlijk of commercieel gebruik. Ongewijzigde Officiële binaire bestanden mogen worden geïntegreerd in persoonlijke, open-source-, gratis of commerciële projecten en gratis worden verspreid. Royalty, registratie, naamsvermelding of kennisgeving is niet vereist. Rechtmatig gemaakte kaarten, modellen, texturen, archieven en andere uitvoer blijven van u.
+
+3. Alleen Officiële binaire bestanden zijn toegestaan. Er wordt geen recht verleend op broncode, gelekte of onofficiële builds, gewijzigde uitvoerbare bestanden, geëxtraheerde onderdelen of gereconstrueerde versies; deze mogen niet als door D3cort goedgekeurd worden voorgesteld.
+
+4. Behalve voor zover dwingend recht dit verbod niet toestaat, zijn reverse engineering, decompilatie, disassemblage, decodering, ontsleuteling, uitpakken, dumps, tracing, interne analyse, bronreconstructie, extractie van algoritmen of onderdelen, omzeiling van beveiliging, wijziging, patching, aanpassing, afgeleide werken, opsplitsing van de Software en hulp daarbij verboden.
+
+5. Teruggewonnen materiaal mag niet voor ontwikkeling worden verkregen of bewaard, gekopieerd, gepubliceerd, verspreid, verkocht, gelicentieerd, voor hergebruik bestudeerd of in een project, product, dienst, bibliotheek, hulpmiddel of programma worden opgenomen. Het mag niet worden gebruikt om BSPCompileX of een wezenlijk vergelijkbare uitvoering te maken.
+
+6. BSPCompileX moet gratis blijven. De Software mag niet worden verkocht, verhuurd, tegen betaling gesublicentieerd, achter afzonderlijke betaalde toegang geplaatst of afzonderlijk in rekening gebracht. Een groter commercieel project mag een Officieel binair bestand bevatten, mits BSPCompileX niet als uw product wordt voorgesteld en toegang ertoe niet afzonderlijk wordt berekend.
+
+7. BSPCompileX wordt in licentie gegeven, niet verkocht. D3cort behoudt alle niet uitdrukkelijk verleende rechten. Onderdelen van derden blijven onder hun eigen licenties vallen.
+
+8. D3cort mag deze licentie op elk moment voor een nieuwe versie wijzigen. De meegeleverde licentie beheerst die versie, wordt van kracht bij aanvaarding of gebruik en kan een nieuwe instemming vereisen.
+
+9. Bij een wezenlijke schending eindigt de licentie automatisch. Gebruik en verspreiding moeten stoppen en onbevoegde gewijzigde kopieën en Teruggewonnen materiaal moeten worden verwijderd.
+
+10. DE SOFTWARE WORDT “IN DE HUIDIGE STAAT” EN “ZOALS BESCHIKBAAR” ZONDER GARANTIES GELEVERD. U BENT VERANTWOORDELIJK VOOR BACK-UPS, TESTS EN CONTROLE VAN DE UITVOER.
+
+11. VOOR ZOVER WETTELIJK TOEGESTAAN IS D3CORT NIET AANSPRAKELIJK VOOR INDIRECTE, BIJZONDERE, GEVOLG- OF STRAFSCHADE OF VERLIES VAN GEGEVENS, WINST OF BEDRIJF. NIET-UITSLUITBARE AANSPRAKELIJKHEID IS BEPERKT TOT HET RECHTSTREEKS VOOR DE SOFTWARE BETAALDE BEDRAG — NUL — TENZIJ DWINGEND RECHT ANDERS VEREIST.
+
+12. De overeenkomst sluit geen rechten uit waarvan geen afstand kan worden gedaan. Wettelijk toegestane decompilatie blijft beperkt tot het toegestane doel en de minimale omvang en staat geen inbreuk, verspreiding van teruggewonnen code of een wezenlijk vergelijkbaar concurrerend product toe. Ongeldigheid van één bepaling laat de overige onverlet. Bij verschillen prevaleert de Engelse tekst voor zover wettelijk toegestaan.
+
+===== ja =====
+BSPCompileX 独占的フリーウェア・バイナリライセンス
+ライセンス改訂 1 — 2026年8月1日発効
+
+Copyright © 2026 D3cort. All rights reserved.
+主要かつ現行の開発者：D3cort
+公式プロフィール：https://github.com/D3cort
+
+重要：BSPCompileX をインストール、実行、複製、再配布、または組み込む前に本契約をお読みください。「同意する」を選択するか本ソフトウェアを使用すると、本条件に同意したものとみなされます。同意しない場合は使用しないでください。
+
+1.「本ソフトウェア」とは BSPCompileX および付属ファイルをいいます。「公式バイナリ」とは、D3cort がビルドして公開した、または明示的に許可した経路で配布された未改変のバイナリまたはリリースパッケージです。「復元資料」とは、漏えい、無許可バックアップ、逆コンパイル、逆アセンブル、リバースエンジニアリング、抽出その他類似の手段から得られたソースコード、断片、アルゴリズム、内部資産、シンボルまたは表現をいいます。
+
+2. 本契約を守ることを条件に、D3cort は公式バイナリを期間、機能、個人利用または商用利用の料金なしでインストール・実行できる、全世界的、非独占的かつロイヤリティ不要のライセンスを付与します。未改変の公式バイナリを個人、オープンソース、無料または商用のプロジェクトに組み込み、無料で再配布できます。ロイヤリティ、登録、クレジット、帰属表示または通知は不要です。合法的に作成したマップ、モデル、テクスチャ、アーカイブその他の出力は利用者に帰属します。
+
+3. 許可されるのは公式バイナリのみです。ソースコード、漏えい・非公式ビルド、改変実行ファイル、抽出部品または再構成版に権利は付与されず、D3cort 承認版として表示できません。
+
+4. 強行法規がこの制限を認めない限定的範囲を除き、リバースエンジニアリング、逆コンパイル、逆アセンブル、デコード、復号、展開、ダンプ、トレース、内部解析、ソース再構築、アルゴリズム・部品の抽出、技術的保護の回避、改変、パッチ、翻案、二次的著作物の作成、分割、およびこれらへの援助を禁止します。
+
+5. 復元資料を開発目的で取得・保有し、複製、公表、配布、販売、ライセンス、再利用のための研究、またはプロジェクト、製品、サービス、ライブラリ、ツール、プログラムへ組み込むことを禁止します。BSPCompileX の機能または実質的に類似する実装の再現に利用できません。
+
+6. BSPCompileX は無料でなければなりません。本ソフトウェア自体の販売、賃貸、有料サブライセンス、個別の有料アクセス、個別料金を禁止します。より大きな商用プロジェクトは公式バイナリを含められますが、BSPCompileX を自己の製品として表示したり、アクセス料を別途請求したりできません。
+
+7. BSPCompileX は販売ではなく使用許諾されます。明示的に付与されないすべての権利を D3cort が留保します。第三者の部品にはそれぞれのライセンスが適用されます。
+
+8. D3cort は新しいバージョンについて本ライセンスを随時変更できます。各バージョンには同梱のライセンスが適用され、承諾または使用により効力を生じ、再承諾を求めることがあります。
+
+9. 重大な違反によりライセンスは自動終了します。使用・再配布を中止し、無許可の改変版および復元資料を削除しなければなりません。
+
+10. 本ソフトウェアは保証なしに「現状有姿」かつ「提供可能な状態」で提供されます。バックアップ、テスト、および出力の確認は利用者の責任です。
+
+11. 法律が許す最大限において、D3CORT は間接、特別、結果的、懲罰的損害、またはデータ、利益、事業の損失について責任を負いません。排除できない責任は、強行法規が別途要求しない限り、本ソフトウェアに直接支払われた金額、すなわちゼロに限られます。
+
+12. 本契約は放棄できない法的権利を排除しません。法的に許される逆コンパイルは許可された目的と最小範囲に限られ、権利侵害、復元コードの配布、実質的に類似する競合製品の作成を許しません。一部条項が執行不能でも残りは有効です。翻訳と英語が異なる場合、法律の許す範囲で英語版が優先します。
+
+===== ro =====
+LICENȚĂ PROPRIETARĂ GRATUITĂ PENTRU BINARELE BSPCompileX
+Revizia 1 — în vigoare de la 1 august 2026
+
+Copyright © 2026 D3cort. Toate drepturile rezervate.
+Dezvoltator principal și activ: D3cort
+Profil oficial: https://github.com/D3cort
+
+IMPORTANT: citiți acordul înainte de a instala, rula, copia, redistribui sau integra BSPCompileX. Selectând „Sunt de acord” sau folosind Software-ul, acceptați condițiile. Dacă nu sunteți de acord, nu utilizați Software-ul.
+
+1. „Software” înseamnă BSPCompileX și fișierele însoțitoare. Un „Binar oficial” este un binar ori pachet nemodificat, compilat și publicat de D3cort sau printr-un canal autorizat expres. „Materiale recuperate” înseamnă cod sursă, fragmente, algoritmi, resurse interne, simboluri sau reprezentări obținute prin scurgere, copie de rezervă neautorizată, decompilare, dezasamblare, inginerie inversă, extragere sau proces similar.
+
+2. Cu respectarea acordului, D3cort acordă o licență mondială, neexclusivă și fără redevențe pentru instalarea și rularea Binarelor oficiale fără taxe de timp, funcții, utilizare personală sau comercială. Binarele oficiale nemodificate pot fi integrate în proiecte personale, open-source, gratuite sau comerciale și redistribuite gratuit. Nu sunt necesare redevențe, înregistrare, credit, atribuire sau notificare. Hărțile, modelele, texturile, arhivele și alte rezultate create legal rămân ale dvs.
+
+3. Sunt autorizate numai Binarele oficiale. Nu se acordă drepturi asupra codului sursă, versiunilor divulgate sau neoficiale, executabilelor modificate, componentelor extrase sau versiunilor reconstruite, care nu pot fi prezentate drept aprobate de D3cort.
+
+4. Cu excepția limitată în care legea imperativă nu permite restricția, sunt interzise ingineria inversă, decompilarea, dezasamblarea, decodarea, decriptarea, despachetarea, dump-ul, urmărirea, analiza internă, reconstruirea sursei, extragerea algoritmilor sau componentelor, eludarea protecțiilor, modificarea, patch-ul, adaptarea, operele derivate, separarea Software-ului și sprijinirea acestor activități.
+
+5. Materialele recuperate nu pot fi obținute ori păstrate pentru dezvoltare, copiate, publicate, distribuite, vândute, licențiate, studiate pentru reutilizare sau încorporate într-un proiect, produs, serviciu, bibliotecă, instrument sau program. Nu pot fi folosite pentru a reproduce BSPCompileX ori o implementare substanțial similară.
+
+6. BSPCompileX trebuie să rămână gratuit. Software-ul nu poate fi vândut, închiriat, sublicențiat contra cost, plasat în spatele unui acces plătit separat sau taxat separat. Un proiect comercial mai mare poate include un Binar oficial dacă BSPCompileX nu este prezentat ca produs propriu și accesul nu este taxat separat.
+
+7. BSPCompileX este licențiat, nu vândut. D3cort păstrează toate drepturile neacordate expres. Componentele terțe rămân supuse licențelor proprii.
+
+8. D3cort poate modifica oricând licența pentru o versiune nouă. Fiecare versiune este guvernată de licența inclusă, efectivă la acceptare sau utilizare, și poate necesita o nouă acceptare.
+
+9. Încălcarea substanțială încetează automat licența. Trebuie oprite utilizarea și redistribuirea și șterse copiile modificate neautorizate și Materialele recuperate.
+
+10. SOFTWARE-UL ESTE FURNIZAT „CA ATARE” ȘI „ÎN FUNCȚIE DE DISPONIBILITATE”, FĂRĂ GARANȚII. SUNTEȚI RESPONSABIL DE COPII DE REZERVĂ, TESTARE ȘI VERIFICAREA REZULTATELOR.
+
+11. ÎN LIMITA MAXIMĂ PERMISĂ DE LEGE, D3CORT NU RĂSPUNDE PENTRU DAUNE INDIRECTE, SPECIALE, CONSECUTIVE SAU PUNITIVE ORI PIERDEREA DATELOR, PROFITULUI SAU AFACERII. RĂSPUNDEREA CARE NU POATE FI EXCLUSĂ ESTE LIMITATĂ LA SUMA PLĂTITĂ DIRECT PENTRU SOFTWARE — ZERO — DACĂ LEGEA IMPERATIVĂ NU CERE ALTFEL.
+
+12. Acordul nu elimină drepturi la care nu se poate renunța. Orice decompilare permisă legal trebuie limitată la scopul și întinderea autorizate și nu permite încălcări, distribuirea codului recuperat ori un produs concurent substanțial similar. Neaplicabilitatea unei clauze nu afectează restul. În caz de diferență, textul englez prevalează în măsura permisă de lege.
+
+===== hu =====
+BSPCompileX TULAJDONOSI INGYENES BINÁRIS LICENC
+1. licencverzió — hatályos 2026. augusztus 1-jétől
+
+Copyright © 2026 D3cort. Minden jog fenntartva.
+Elsődleges és aktív fejlesztő: D3cort
+Hivatalos profil: https://github.com/D3cort
+
+FONTOS: a BSPCompileX telepítése, futtatása, másolása, terjesztése vagy beépítése előtt olvassa el ezt a megállapodást. Az „Elfogadom” kiválasztásával vagy a Szoftver használatával elfogadja a feltételeket. Ha nem ért egyet, ne használja a Szoftvert.
+
+1. A „Szoftver” a BSPCompileX és kísérő fájljai. „Hivatalos bináris” a D3cort által készített és közzétett, illetve kifejezetten engedélyezett csatornán terjesztett változatlan fájl vagy csomag. „Visszanyert anyag” a kiszivárgásból, jogosulatlan mentésből, dekompilálásból, szétszerelésből, visszafejtésből, kinyerésből vagy hasonló eljárásból származó forráskód, részlet, algoritmus, belső erőforrás, szimbólum vagy reprezentáció.
+
+2. A megállapodás betartásával D3cort világméretű, nem kizárólagos és jogdíjmentes licencet ad a Hivatalos binárisok időbeli, funkcionális, személyes vagy kereskedelmi díj nélküli telepítésére és futtatására. Változatlan Hivatalos bináris beépíthető személyes, nyílt forrású, ingyenes vagy kereskedelmi projektbe és ingyenesen terjeszthető. Jogdíj, regisztráció, névfeltüntetés vagy értesítés nem szükséges. A jogszerűen létrehozott pályák, modellek, textúrák, archívumok és egyéb kimenetek az Ön tulajdonában maradnak.
+
+3. Csak Hivatalos bináris engedélyezett. A licenc nem terjed ki forráskódra, kiszivárgott vagy nem hivatalos buildre, módosított végrehajtható fájlra, kinyert összetevőre vagy rekonstruált verzióra, és ezek nem tüntethetők fel D3cort által jóváhagyottként.
+
+4. A kötelező jog által meg nem engedett korlátozott kör kivételével tilos a visszafejtés, dekompilálás, disassemblálás, dekódolás, visszafejtés, kicsomagolás, dump, nyomkövetés, belső elemzés, forrás-rekonstrukció, algoritmus vagy összetevő kinyerése, védelem megkerülése, módosítás, javítás, adaptáció, származékos mű, szétválasztás és az ilyen tevékenység segítése.
+
+5. Visszanyert anyag fejlesztési célból nem szerezhető meg vagy tartható, nem másolható, tehető közzé, terjeszthető, értékesíthető, licencelhető, vizsgálható újrafelhasználásra, és nem építhető projektbe, termékbe, szolgáltatásba, könyvtárba, eszközbe vagy programba. Nem használható BSPCompileX vagy lényegében hasonló megvalósítás létrehozására.
+
+6. A BSPCompileX-nek ingyenesnek kell maradnia. Nem értékesíthető, adható bérbe, licencelhető tovább díjért, helyezhető külön fizetős hozzáférés mögé vagy számítható fel érte külön díj. Nagyobb kereskedelmi projekt tartalmazhat Hivatalos binárist, ha a BSPCompileX-et nem saját termékként tüntetik fel, és hozzáféréséért nem kérnek külön díjat.
+
+7. A BSPCompileX licencelt, nem eladott. D3cort fenntart minden kifejezetten át nem adott jogot. Harmadik fél összetevőire saját licencük vonatkozik.
+
+8. D3cort új verzióhoz bármikor módosíthatja a licencet. Minden verzióra a mellékelt licenc vonatkozik, amely elfogadással vagy használattal válik hatályossá, és új elfogadást igényelhet.
+
+9. Lényeges megsértéskor a licenc automatikusan megszűnik. A használatot és terjesztést abba kell hagyni, a jogosulatlan módosított példányokat és Visszanyert anyagokat törölni kell.
+
+10. A SZOFTVER „ADOTT ÁLLAPOTBAN” ÉS „ELÉRHETŐSÉG SZERINT”, GARANCIA NÉLKÜL KERÜL BIZTOSÍTÁSRA. A MENTÉSÉRT, TESZTELÉSÉRT ÉS A KIMENET ELLENŐRZÉSÉÉRT ÖN FELEL.
+
+11. A JOG ÁLTAL MEGENGEDETT LEGTELJESEBB MÉRTÉKBEN D3CORT NEM FELEL KÖZVETETT, KÜLÖNLEGES, KÖVETKEZMÉNYES VAGY BÜNTETŐ KÁRÉRT, ILLETVE ADAT-, NYERESÉG- VAGY ÜZLETVESZTÉSÉRT. A KI NEM ZÁRHATÓ FELELŐSSÉG A SZOFTVERÉRT KÖZVETLENÜL FIZETETT ÖSSZEGRE — NULLÁRA — KORLÁTOZÓDIK, HACSAK A KÖTELEZŐ JOG MÁST NEM KÖVETEL.
+
+12. A megállapodás nem zár ki le nem mondható jogokat. A jogszerűen megengedett dekompilálás az engedélyezett célra és minimális körre korlátozódik, és nem enged jogsértést, visszanyert kód terjesztését vagy lényegében hasonló versenytermék létrehozását. Egy kikötés érvénytelensége nem érinti a többit. Eltérés esetén a jog által megengedett mértékben az angol szöveg az irányadó.
+
+===== ar =====
+ترخيص BSPCompileX المجاني المملوك للملفات الثنائية
+مراجعة الترخيص 1 — سارية من 1 أغسطس 2026
+
+حقوق النشر © 2026 D3cort. جميع الحقوق محفوظة.
+المطور الرئيسي والحالي: D3cort
+الملف الرسمي: https://github.com/D3cort
+
+مهم: اقرأ هذه الاتفاقية قبل تثبيت BSPCompileX أو تشغيله أو نسخه أو إعادة توزيعه أو دمجه. باختيار «أوافق» أو باستخدام البرنامج، فإنك تقبل هذه الشروط. إذا لم توافق، فلا تستخدم البرنامج.
+
+1. «البرنامج» يعني BSPCompileX والملفات المرفقة. «الملف الثنائي الرسمي» هو ملف أو حزمة إصدار غير معدلة أنشأها ونشرها D3cort أو وُزعت عبر قناة أذن بها صراحة. «المواد المستعادة» هي الشفرة المصدرية أو الأجزاء أو الخوارزميات أو الأصول الداخلية أو الرموز أو التمثيلات التي تم الحصول عليها من تسريب أو نسخة احتياطية غير مصرح بها أو فك التجميع أو الهندسة العكسية أو الاستخراج أو عملية مماثلة.
+
+2. مع الالتزام بهذه الاتفاقية، يمنحك D3cort ترخيصًا عالميًا غير حصري ومعفيًا من حقوق الملكية لتثبيت الملفات الثنائية الرسمية وتشغيلها بلا رسوم زمنية أو وظيفية أو شخصية أو تجارية. يجوز دمج الملفات الرسمية غير المعدلة في مشاريع شخصية أو مفتوحة المصدر أو مجانية أو تجارية وإعادة توزيعها مجانًا. لا تُطلب رسوم أو تسجيل أو نسبة العمل أو إشعار D3cort. وتظل الخرائط والنماذج والأنسجة والأرشيفات وغيرها من النتائج التي تنشئها بصورة قانونية ملكًا لك.
+
+3. لا يُسمح إلا بالملفات الثنائية الرسمية. لا يمنح الترخيص حقوقًا في الشفرة المصدرية أو الإصدارات المسربة أو غير الرسمية أو الملفات التنفيذية المعدلة أو المكونات المستخرجة أو النسخ المعاد بناؤها، ولا يجوز عرضها على أنها معتمدة من D3cort.
+
+4. باستثناء الحد الضيق الذي لا يسمح فيه القانون الإلزامي بهذا القيد، تُحظر الهندسة العكسية وفك التجميع وفك التشفير وإزالة الحزم والتفريغ والتتبع والتحليل الداخلي وإعادة بناء المصدر واستخراج الخوارزميات أو المكونات وتجاوز الحماية والتعديل والترقيع والتكييف وإنشاء أعمال مشتقة وتقسيم البرنامج والمساعدة في هذه الأفعال.
+
+5. لا يجوز الحصول على المواد المستعادة أو الاحتفاظ بها للتطوير أو نسخها أو نشرها أو توزيعها أو بيعها أو ترخيصها أو دراستها لإعادة الاستخدام أو دمجها في أي مشروع أو منتج أو خدمة أو مكتبة أو أداة أو برنامج. ولا يجوز استخدامها لإعادة إنتاج BSPCompileX أو تنفيذ مشابه له بدرجة كبيرة.
+
+6. يجب أن يبقى BSPCompileX مجانيًا. لا يجوز بيع البرنامج أو تأجيره أو ترخيصه من الباطن بمقابل أو وضعه خلف وصول مدفوع منفصل أو فرض رسم منفصل عليه. يجوز لمشروع تجاري أكبر تضمين ملف رسمي، بشرط عدم تقديم BSPCompileX على أنه منتجك وعدم فرض رسوم منفصلة للوصول إليه.
+
+7. BSPCompileX مرخص وليس مباعًا. يحتفظ D3cort بجميع الحقوق غير الممنوحة صراحة. وتظل مكونات الأطراف الثالثة خاضعة لتراخيصها الخاصة.
+
+8. يجوز لـ D3cort تعديل هذا الترخيص في أي وقت لإصدار جديد. يخضع كل إصدار للترخيص المرفق به، ويصبح نافذًا عند قبوله أو استخدامه، وقد يتطلب قبولًا جديدًا.
+
+9. ينتهي الترخيص تلقائيًا عند وقوع مخالفة جوهرية. يجب إيقاف الاستخدام وإعادة التوزيع وحذف النسخ المعدلة غير المصرح بها والمواد المستعادة.
+
+10. يُقدَّم البرنامج «كما هو» و«حسب التوفر» من دون أي ضمان. أنت مسؤول عن النسخ الاحتياطي والاختبار والتحقق من النتائج.
+
+11. إلى أقصى حد يسمح به القانون، لا يتحمل D3CORT مسؤولية الأضرار غير المباشرة أو الخاصة أو التبعية أو العقابية، أو فقدان البيانات أو الأرباح أو الأعمال. وتقتصر المسؤولية التي لا يمكن استبعادها على المبلغ المدفوع مباشرة للبرنامج — وهو صفر — ما لم يفرض القانون الإلزامي خلاف ذلك.
+
+12. لا تستبعد الاتفاقية الحقوق التي لا يجوز التنازل عنها. يجب أن يقتصر أي فك تجميع يسمح به القانون على الغرض والنطاق المسموحين، ولا يجيز التعدي أو توزيع الشفرة المستعادة أو إنشاء منتج منافس مشابه بدرجة كبيرة. عدم قابلية أحد الأحكام للتنفيذ لا يؤثر في البقية. عند اختلاف الترجمة، يسود النص الإنجليزي بالقدر الذي يسمح به القانون.
+
+===== sv =====
+BSPCompileX PROPRIETÄR KOSTNADSFRI BINÄRLICENS
+Licensrevision 1 — gäller från den 1 augusti 2026
+
+Copyright © 2026 D3cort. Alla rättigheter förbehållna.
+Huvudsaklig och aktiv utvecklare: D3cort
+Officiell profil: https://github.com/D3cort
+
+VIKTIGT: läs avtalet innan du installerar, kör, kopierar, distribuerar eller integrerar BSPCompileX. Genom att välja ”Jag godkänner” eller använda Programvaran accepterar du villkoren. Använd inte Programvaran om du inte godkänner dem.
+
+1. ”Programvaran” betyder BSPCompileX och medföljande filer. En ”Officiell binärfil” är en oförändrad fil eller utgåva byggd och publicerad av D3cort eller via en uttryckligen godkänd kanal. ”Återvunnet material” är källkod, fragment, algoritmer, interna tillgångar, symboler eller representationer som erhållits genom läcka, obehörig säkerhetskopia, dekompilering, disassemblering, reverse engineering, extraktion eller liknande process.
+
+2. Under förutsättning att avtalet följs ger D3cort en världsomspännande, icke-exklusiv och royaltyfri licens att installera och köra Officiella binärfiler utan tids-, funktions-, personlig eller kommersiell avgift. Oförändrade Officiella binärfiler får integreras i personliga, öppna, kostnadsfria eller kommersiella projekt och distribueras gratis. Royalty, registrering, kreditering, attribution eller meddelande krävs inte. Lagligen skapade kartor, modeller, texturer, arkiv och andra utdata förblir dina.
+
+3. Endast Officiella binärfiler är tillåtna. Licensen ger inga rättigheter till källkod, läckta eller inofficiella byggen, ändrade körbara filer, extraherade komponenter eller rekonstruerade versioner, och dessa får inte anges som godkända av D3cort.
+
+4. Förutom i den begränsade omfattning där tvingande lag inte tillåter förbudet är reverse engineering, dekompilering, disassemblering, avkodning, dekryptering, uppackning, dumpning, spårning, intern analys, rekonstruktion av källkod, extraktion av algoritmer eller komponenter, kringgående av skydd, modifiering, patchning, anpassning, härledda verk, uppdelning av Programvaran och hjälp till sådana åtgärder förbjudna.
+
+5. Återvunnet material får inte erhållas eller innehas för utveckling, kopieras, publiceras, distribueras, säljas, licensieras, studeras för återanvändning eller införlivas i projekt, produkter, tjänster, bibliotek, verktyg eller program. Det får inte användas för att återskapa BSPCompileX eller en väsentligen liknande implementation.
+
+6. BSPCompileX måste förbli gratis. Programvaran får inte säljas, hyras ut, vidarelicensieras mot betalning, placeras bakom separat betalåtkomst eller debiteras separat. Ett större kommersiellt projekt får innehålla en Officiell binärfil om BSPCompileX inte framställs som din produkt och åtkomsten inte debiteras separat.
+
+7. BSPCompileX licensieras, inte säljs. D3cort behåller alla rättigheter som inte uttryckligen upplåts. Tredjepartskomponenter omfattas fortsatt av sina egna licenser.
+
+8. D3cort får när som helst ändra licensen för en ny version. Varje version styrs av den medföljande licensen, som blir giltig när den godkänns eller används och kan kräva nytt godkännande.
+
+9. Licensen upphör automatiskt vid väsentligt brott. Användning och distribution måste upphöra och obehöriga ändrade kopior samt Återvunnet material raderas.
+
+10. PROGRAMVARAN TILLHANDAHÅLLS ”I BEFINTLIGT SKICK” OCH ”I MÅN AV TILLGÄNGLIGHET” UTAN GARANTIER. DU ANSVARAR FÖR SÄKERHETSKOPIERING, TESTNING OCH KONTROLL AV UTDATA.
+
+11. I STÖRSTA LAGLIGA OMFATTNING ANSVARAR D3CORT INTE FÖR INDIREKTA, SÄRSKILDA, FÖLJD- ELLER STRAFFSKADOR ELLER FÖRLUST AV DATA, VINST ELLER VERKSAMHET. ANSVAR SOM INTE KAN UNDANTAS BEGRÄNSAS TILL BELOPPET SOM BETALATS DIREKT FÖR PROGRAMVARAN — NOLL — OM INTE TVINGANDE LAG KRÄVER ANNAT.
+
+12. Avtalet utesluter inte rättigheter som inte kan avtalas bort. Lagligen tillåten dekompilering måste begränsas till tillåtet syfte och minsta omfattning och tillåter inte intrång, spridning av återvunnen kod eller en väsentligen liknande konkurrerande produkt. Att ett villkor inte kan verkställas påverkar inte övriga. Vid skillnad gäller den engelska texten i den utsträckning lagen tillåter.
