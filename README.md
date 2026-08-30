@@ -15,16 +15,9 @@
 
 ## Download
 
-- **[Download BSPCompileX 0.7.6 Beta for Windows x64](https://github.com/D3cort/BSPCompileX/releases/download/v0.7.6-beta/BSPCompileX-0.7.6-Beta-Windows-x64.exe)**
-- [Open the GitHub release](https://github.com/D3cort/BSPCompileX/releases/tag/v0.7.6-beta)
+- **[Download BSPCompileX 0.7.8 Beta for Windows x64](https://github.com/D3cort/BSPCompileX/releases/download/v0.7.8-beta/BSPCompileX-0.7.8-Beta-Windows-x64.exe)**
+- [Open the GitHub release]([https://github.com/D3cort/BSPCompileX/releases/tag/v0.7.6-beta](https://github.com/D3cort/BSPCompileX/releases/tag/v0.7.8-beta))
 - [Download the SHA-256 checksum](https://github.com/D3cort/BSPCompileX/releases/download/v0.7.6-beta/BSPCompileX-0.7.6-Beta-Windows-x64.sha256.txt)
-
-## What is new in 0.7.6 Beta
-
-- Log lines include `[HH:MM:SS]` timestamps.
-- Persistent CPU and memory limits can reserve system resources while compiling.
-- Titan Physical HDR ray traversal is faster without reducing lighting samples or quality.
-- The application is distributed as one signed `BSPCompileX.exe` with no Python installation required.
 
 ## Features
 
